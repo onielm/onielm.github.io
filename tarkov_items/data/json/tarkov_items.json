@@ -1,4 +1,4 @@
-{
+[{
   "Prapor":{
     "0":{
       "name":"60-round 5.45x39 magazine",
@@ -8,7 +8,7 @@
       "level":"9",
       "crafting":"1",
       "status":"0",
-      "image":"6L31-60-mag_icon.JPEG",
+      "image":"6L31-60-mag_icon.JPEG"
     },
     "1":{
       "name":"AK-74N",
@@ -18,7 +18,7 @@
       "level":"20",
       "crafting":"1",
       "status":"0",
-      "image":"AK-74N_icon.JPEG",
+      "image":"AK-74N_icon.JPEG"
     },
     "2":{
       "name":"M4A1",
@@ -28,7 +28,7 @@
       "level":"20",
       "crafting":"0",
       "status":"0",
-      "image":"M4standardtrade.JPEG",
+      "image":"M4standardtrade.JPEG"
     },
     "3":{
       "name":"PM",
@@ -38,7 +38,7 @@
       "level":"20",
       "crafting":"0",
       "status":"0",
-      "image":"PM_icon.JPEG",
+      "image":"PM_icon.JPEG"
     },
     "4":{
       "name":"Lower half-mask",
@@ -48,7 +48,7 @@
       "level":"18",
       "crafting":"0",
       "status":"0",
-      "image":"Lower_half-mask_icon.JPEG",
+      "image":"Lower_half-mask_icon.JPEG"
     },
     "5":{
       "name":"Bars A-2607",
@@ -58,7 +58,7 @@
       "level":"20",
       "crafting":"0",
       "status":"0",
-      "image":"A-2607_Bars.JPEG",
+      "image":"A-2607_Bars.JPEG"
     },
     "6":{
       "name":"Military Battery",
@@ -68,7 +68,7 @@
       "level":"25",
       "crafting":"0",
       "status":"0",
-      "image":"Mil_Batt_icon.JPEG",
+      "image":"Mil_Batt_icon.JPEG"
     },
     "7":{
       "name":"OFZ 30x160mm shell",
@@ -78,7 +78,7 @@
       "level":"25",
       "crafting":"1",
       "status":"0",
-      "image":"30x160mmShellicon.JPEG",
+      "image":"30x160mmShellicon.JPEG"
     }
   },
   "Therapist":{
@@ -90,7 +90,7 @@
       "level":"1",
       "crafting":"1",
       "status":"0",
-      "image":"EFT_Salewa-First-Aid-Kit_Icon_2.JPEG",
+      "image":"EFT_Salewa-First-Aid-Kit_Icon_2.JPEG"
     },
     "1":{
       "name":"Gaz Analizer",
@@ -100,7 +100,7 @@
       "level":"4 and 8",
       "crafting":"0",
       "status":"0",
-      "image":"Gas_Analyzer_Icon.JPEG",
+      "image":"Gas_Analyzer_Icon.JPEG"
     },
     "2":{
       "name":"Morphine injector",
@@ -110,7 +110,7 @@
       "level":"8",
       "crafting":"1",
       "status":"0",
-      "image":"EFT_Morphine_Icon.JPEG",
+      "image":"EFT_Morphine_Icon.JPEG"
     },
     "3":{
       "name":"Can of beef stew",
@@ -120,7 +120,7 @@
       "level":"15",
       "crafting":"1",
       "status":"0",
-      "image":"Can_of_beef_stew_Icon.JPEG",
+      "image":"Can_of_beef_stew_Icon.JPEG"
     },
     "4":{
       "name":"Car battery",
@@ -130,7 +130,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Car_Battery_Icon.JPEG",
+      "image":"Car_Battery_Icon.JPEG"
     },
     "5":{
       "name":"Spark plug",
@@ -140,7 +140,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Spark_Plug_Icon_.JPEG",
+      "image":"Spark_Plug_Icon_.JPEG"
     },
     "6":{
       "name":"Ophthalmoscope",
@@ -150,7 +150,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Ophthalmoscopeicon.JPEG",
+      "image":"Ophthalmoscopeicon.JPEG"
     },
     "7":{
       "name":"LEDX",
@@ -160,7 +160,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"TransilluminatorIcon.JPEG",
+      "image":"TransilluminatorIcon.JPEG"
     },
     "8":{
       "name":"AHF1-M",
@@ -170,7 +170,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"AHF1-M_icon.JPEG",
+      "image":"AHF1-M_icon.JPEG"
     },
     "90":{
       "name":"3-(b-TG)",
@@ -180,7 +180,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"3-%28b-TG%29_icon.JPEG",
+      "image":"3-%28b-TG%29_icon.JPEG"
     },
   },
   "Fence":{
@@ -192,7 +192,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"FireSteelIcon.JPEG",
+      "image":"FireSteelIcon.JPEG"
     },
     "1":{
       "name":"Antique axe",
@@ -202,7 +202,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Antique_Axe_icon.JPEG",
+      "image":"Antique_Axe_icon.JPEG"
     },
     "2":{
       "name":"Battered antique Book",
@@ -212,7 +212,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"BatteredBookIcon.JPEG",
+      "image":"BatteredBookIcon.JPEG"
     },
     "3":{
       "name":"FireKlean gun lube",
@@ -222,7 +222,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"FireKlean_icon.JPEG",
+      "image":"FireKlean_icon.JPEG"
     },
     "4":{
       "name":"Golden rooster",
@@ -232,7 +232,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"GoldenRoosterIcon.JPEG",
+      "image":"GoldenRoosterIcon.JPEG"
     },
     "5":{
       "name":"Silver Badge",
@@ -242,7 +242,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Silver_Badge_icon.JPEG",
+      "image":"Silver_Badge_icon.JPEG"
     },
     "6":{
       "name":"Deadlyslob's beard oil",
@@ -252,7 +252,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Deadlyslobs_beard_oil_icon.JPEG",
+      "image":"Deadlyslobs_beard_oil_icon.JPEG"
     },
     "7":{
       "name":"Golden 1GPhone",
@@ -262,7 +262,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"1gphone_icon.JPEG",
+      "image":"1gphone_icon.JPEG"
     },
     "8":{
       "name":"Jar of DevilDog mayo",
@@ -272,7 +272,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"DDGMayoIcon.JPEG",
+      "image":"DDGMayoIcon.JPEG"
     },
     "9":{
       "name":"Can of sprats",
@@ -282,7 +282,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Can_of_sprats_Icon.JPEG",
+      "image":"Can_of_sprats_Icon.JPEG"
     },
     "10":{
       "name":"Fake mustache",
@@ -292,7 +292,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Fake_Mustache_icon.JPEG",
+      "image":"Fake_Mustache_icon.JPEG"
     },
     "11":{
       "name":"Kotton beanie",
@@ -302,7 +302,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Kotton_Beanie_icon.JPEG",
+      "image":"Kotton_Beanie_icon.JPEG"
     },
     "12":{
       "name":"Can of Dr. Lupo's coffee beans",
@@ -312,7 +312,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Lupo_Icon.JPEG",
+      "image":"Lupo_Icon.JPEG"
     },
     "13":{
       "name":"Pestily plague mask",
@@ -322,7 +322,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Plague_mask_icon.JPEG",
+      "image":"Plague_mask_icon.JPEG"
     },
     "14":{
       "name":"Raven figurine",
@@ -332,7 +332,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Raven_figurine_icon.JPEG",
+      "image":"Raven_figurine_icon.JPEG"
     },
     "15":{
       "name":"Shroud half-mask",
@@ -342,7 +342,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Shroud_Icon.JPEG",
+      "image":"Shroud_Icon.JPEG"
     },
     "16":{
       "name":"Veritas guitar pick",
@@ -352,7 +352,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"VeritasGuitarPickIcon.JPEG",
+      "image":"VeritasGuitarPickIcon.JPEG"
     },
     "17":{
       "name":"42nd Signature Blend English Tea",
@@ -362,7 +362,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"EnglishTeaIcon.JPEG",
+      "image":"EnglishTeaIcon.JPEG"
     },
   },
   "Skier":{
@@ -374,7 +374,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Secure_Flash_drive_Icon.JPEG",
+      "image":"Secure_Flash_drive_Icon.JPEG"
     },
     "1":{
       "name":"Respirator",
@@ -384,7 +384,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Respirator_icon.JPEG",
+      "image":"Respirator_icon.JPEG"
     },
     "2":{
       "name":"Medical Bloodset",
@@ -394,7 +394,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Medical_Bloodset_Icon.JPEG",
+      "image":"Medical_Bloodset_Icon.JPEG"
     },
     "3":{
       "name":"Module-3M Bodyarmor",
@@ -404,7 +404,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"3M_icon.JPEG",
+      "image":"3M_icon.JPEG"
     },
     "4":{
       "name":"TOZ-106 bolt-action shotgun",
@@ -414,7 +414,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Toz.JPEG",
+      "image":"Toz.JPEG"
     },
   },
   "Peacekeeper":{
@@ -426,7 +426,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"WD40_100ml_Icon.JPEG",
+      "image":"WD40_100ml_Icon.JPEG"
     },
     "1":{
       "name":"Clin Wiper",
@@ -436,7 +436,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Clin_Wiper_icon.JPEG",
+      "image":"Clin_Wiper_icon.JPEG"
     },
     "2":{
       "name":"Ox Bleach",
@@ -446,7 +446,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Bleachicon.JPEG",
+      "image":"Bleachicon.JPEG"
     },
     "3":{
       "name":"Morphine injector",
@@ -456,7 +456,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"EFT_Morphine_Icon.JPEG",
+      "image":"EFT_Morphine_Icon.JPEG"
     },
     "4":{
       "name":"Heat-exchange alkali surface washer",
@@ -466,7 +466,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Heat-exchange_alkali_surface_washer_icon.JPEG",
+      "image":"Heat-exchange_alkali_surface_washer_icon.JPEG"
     },
     "5":{
       "name":"Hose",
@@ -476,7 +476,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Hoseicon.JPEG",
+      "image":"Hoseicon.JPEG"
     },
     "6":{
       "name":"Propane",
@@ -486,7 +486,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"5L_propane_tank_icon.JPEG",
+      "image":"5L_propane_tank_icon.JPEG"
     },
     "7":{
       "name":"Military COFDM wireless Signal Transmitter",
@@ -496,7 +496,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"COFDM_Icon.JPEG",
+      "image":"COFDM_Icon.JPEG"
     },
     "8":{
       "name":"Virtex programmable processor",
@@ -506,7 +506,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Virtex_programmable_processor_Icon.JPEG",
+      "image":"Virtex_programmable_processor_Icon.JPEG"
     },
     "900":{
       "name":"3-(b-TG)",
@@ -516,7 +516,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"3-%28b-TG%29_icon.JPEG",
+      "image":"3-%28b-TG%29_icon.JPEG"
     },
     "901":{
       "name":"L1 (Norepinephrine)",
@@ -526,7 +526,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"L1_%28Norepinephrine%29_Icon.JPEG",
+      "image":"L1_%28Norepinephrine%29_Icon.JPEG"
     },
     "902":{
       "name":"P22",
@@ -536,7 +536,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"P22_Icon.JPEG",
+      "image":"P22_Icon.JPEG"
     },
     "903":{
       "name":"AHF1-M",
@@ -546,7 +546,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"AHF1-M_icon.JPEG",
+      "image":"AHF1-M_icon.JPEG"
     },
     "904":{
       "name":"Meldonin",
@@ -556,7 +556,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"EFT_Morphine_Icon.JPEG",
+      "image":"EFT_Morphine_Icon.JPEG"
     },
     "905":{
       "name":"Cocktail Obdolbos",
@@ -566,7 +566,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Cocktail_Obdolbos_Icon.JPEG",
+      "image":"Cocktail_Obdolbos_Icon.JPEG"
     },
     "906":{
       "name":"M.U.L.E",
@@ -576,7 +576,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"M.U.L.E._Stimulator_Icon.JPEG",
+      "image":"M.U.L.E._Stimulator_Icon.JPEG"
     },
   },
   "Mechanic":{
@@ -588,7 +588,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Powercord_icon.JPEG",
+      "image":"Powercord_icon.JPEG"
     },
     "1":{
       "name":"T-Shaped Plug",
@@ -598,7 +598,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"T-Shaped_Plug_Icon.JPEG",
+      "image":"T-Shaped_Plug_Icon.JPEG"
     },
     "2":{
       "name":"Printed circuit board",
@@ -608,7 +608,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Circuit_Icon.JPEG",
+      "image":"Circuit_Icon.JPEG"
     },
     "3":{
       "name":"Graphics card",
@@ -618,7 +618,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Graphics_Card_icon.JPEG",
+      "image":"Graphics_Card_icon.JPEG"
     },
     "4":{
       "name":"CPU Fan",
@@ -628,7 +628,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"CPU_Fan_Icon.JPEG",
+      "image":"CPU_Fan_Icon.JPEG"
     },
     "5":{
       "name":"PC CPU",
@@ -638,7 +638,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"PC_CPU_Icon.JPEG",
+      "image":"PC_CPU_Icon.JPEG"
     },
     "6":{
       "name":"Rechargeable battery",
@@ -648,7 +648,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Recicon.JPEG",
+      "image":"Recicon.JPEG"
     },
     "7":{
       "name":"Broken GPhone",
@@ -658,7 +658,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Broken_GPhone_Icon.JPEG",
+      "image":"Broken_GPhone_Icon.JPEG"
     },
     "8":{
       "name":"Malboro Cigarettes",
@@ -668,7 +668,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Malboro_Cigarettes_Icon.JPEG",
+      "image":"Malboro_Cigarettes_Icon.JPEG"
     },
     "90":{
       "name":"Strike Cigarettes",
@@ -678,7 +678,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Cigred.JPEG",
+      "image":"Cigred.JPEG"
     },
     "91":{
       "name":"Wilston cigarettes",
@@ -688,7 +688,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Wilstonicon.JPEG",
+      "image":"Wilstonicon.JPEG"
     },
     "92":{
       "name":"UHF RFID Reader",
@@ -698,7 +698,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"UHFRFIDIcon.JPEG",
+      "image":"UHFRFIDIcon.JPEG"
     },
     "93":{
       "name":"VPX Flash Storage Module",
@@ -708,7 +708,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"VPXFlashIcon.JPEG",
+      "image":"VPXFlashIcon.JPEG"
     },
     "94":{
       "name":"Wires",
@@ -718,7 +718,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Wiresicon.JPEG",
+      "image":"Wiresicon.JPEG"
     },
     "95":{
       "name":"Capacitors",
@@ -728,7 +728,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Capacitorsicon.JPEG",
+      "image":"Capacitorsicon.JPEG"
     },
   },
   "Ragman":{
@@ -740,7 +740,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Aramid_Icon_.JPEG",
+      "image":"Aramid_Icon_.JPEG"
     },
     "001":{
       "name":"Paracord",
@@ -750,7 +750,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"ParacordIcon.JPEG",
+      "image":"ParacordIcon.JPEG"
     },
     "002":{
       "name":"Ripstop cloth",
@@ -760,7 +760,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Ripstop_icon.JPEG",
+      "image":"Ripstop_icon.JPEG"
     },
     "3":{
       "name":"KEKTAPE duct tape",
@@ -770,7 +770,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"KEKTape_icon.JPEG",
+      "image":"KEKTape_icon.JPEG"
     },
     "4":{
       "name":"Fleece cloth",
@@ -780,7 +780,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Fleece_Icon.JPEG",
+      "image":"Fleece_Icon.JPEG"
     },
     "5":{
       "name":"Polyamide fabric Cordura",
@@ -790,7 +790,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Cordura_Icon.JPEG",
+      "image":"Cordura_Icon.JPEG"
     },
     "6":{
       "name":"BlackRock chest rig",
@@ -800,7 +800,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Blackrock_Icon.JPEG",
+      "image":"Blackrock_Icon.JPEG"
     },
     "7":{
       "name":"Wartech gear rig",
@@ -810,7 +810,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Wartech_gear_rig_icon.JPEG",
+      "image":"Wartech_gear_rig_icon.JPEG"
     },
     "8":{
       "name":"Pilgrim tourist backpack",
@@ -820,7 +820,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Pilgrim_Backpack_icon.JPEG",
+      "image":"Pilgrim_Backpack_icon.JPEG"
     },
     "9":{
       "name":"Ski hat with holes for eyes",
@@ -830,7 +830,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"ShmaskaIcon.JPEG",
+      "image":"ShmaskaIcon.JPEG"
     },
     "10":{
       "name":"Fuel conditioner",
@@ -840,7 +840,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Fuelcondicon.JPEG",
+      "image":"Fuelcondicon.JPEG"
     },
     "11":{
       "name":"Bronze lion",
@@ -850,7 +850,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Bronze_Lion_Icon.JPEG",
+      "image":"Bronze_Lion_Icon.JPEG"
     },
     "12":{
       "name":"Roler submariner gold wrist watch",
@@ -860,7 +860,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Roler_icon.JPEG",
+      "image":"Roler_icon.JPEG"
     },
     "13":{
       "name":"Horse Figurine",
@@ -870,7 +870,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Horse_figurine_Icon.JPEG",
+      "image":"Horse_figurine_Icon.JPEG"
     },
     "14":{
       "name":"Cat figurine",
@@ -880,7 +880,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Caticon.JPEG",
+      "image":"Caticon.JPEG"
     },
     "15":{
       "name":"Antique teapot",
@@ -890,7 +890,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Teapot_icon.JPEG",
+      "image":"Teapot_icon.JPEG"
     },
     "16":{
       "name":"Antique vase",
@@ -900,7 +900,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Vaseicon.JPEG",
+      "image":"Vaseicon.JPEG"
     },
     "17":{
       "name":"Ushanka ear-flap cap",
@@ -910,7 +910,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Ushanka_icon.JPEG",
+      "image":"Ushanka_icon.JPEG"
     },
     "18":{
       "name":"Cowboy Hat",
@@ -920,7 +920,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Cow_boy_hat_icon.JPEG",
+      "image":"Cow_boy_hat_icon.JPEG"
     },
   },
   "Jaeger":{
@@ -932,7 +932,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Lunchbox_icon.JPEG",
+      "image":"Lunchbox_icon.JPEG"
     },
     "1":{
       "name":"Emelya rye croutons",
@@ -942,7 +942,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Emeyla_Croutons.JPEG",
+      "image":"Emeyla_Croutons.JPEG"
     },
     "2":{
       "name":"Can of delicious beef stew",
@@ -952,7 +952,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Can_of_beef_stew_alt_Icon.JPEG",
+      "image":"Can_of_beef_stew_alt_Icon.JPEG"
     },
     "3":{
       "name":"TT pistol 7.62x25 TT Gold",
@@ -962,7 +962,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"GoldenTTIcon.JPEG",
+      "image":"GoldenTTIcon.JPEG"
     },
     "4":{
       "name":"Maska 1Sch helmet (Killa)",
@@ -972,7 +972,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Maska_1Sch_helmet_icon-1.JPEG",
+      "image":"Maska_1Sch_helmet_icon-1.JPEG"
     },
     "5":{
       "name":"Shturman key",
@@ -982,7 +982,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Shturman_Key_Icon.JPEG",
+      "image":"Shturman_Key_Icon.JPEG"
     },
     "6":{
       "name":"Secure Flash Drive",
@@ -992,7 +992,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Secure_Flash_drive_Icon.JPEG",
+      "image":"Secure_Flash_drive_Icon.JPEG"
     },
     "7":{
       "name":"TerraGroup Labs access keycard",
@@ -1002,7 +1002,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"Terragroup_Labs_access_keycard_icon.JPEG",
+      "image":"Terragroup_Labs_access_keycard_icon.JPEG"
     },
     "8":{
       "name":"CMS Kit",
@@ -1012,7 +1012,7 @@
       "level":"0",
       "crafting":"0",
       "status":"0",
-      "image":"CMS_Icon.JPEG",
+      "image":"CMS_Icon.JPEG"
     },
     "9":{
       "name":"Defribillator",
@@ -1022,7 +1022,7 @@
       "level":"0",
       "crafting":"1",
       "status":"0",
-      "image":"Defibrillatoricon.JPEG",
+      "image":"Defibrillatoricon.JPEG"
     },
   },
-}
+}]
