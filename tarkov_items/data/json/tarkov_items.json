@@ -181,7 +181,7 @@
       "crafting":"0",
       "status":"0",
       "image":"3-%28b-TG%29_icon.JPEG"
-    },
+    }
   },
   "Fence":{
     "0":{
@@ -363,7 +363,7 @@
       "crafting":"0",
       "status":"0",
       "image":"EnglishTeaIcon.JPEG"
-    },
+    }
   },
   "Skier":{
     "0":{
@@ -415,7 +415,7 @@
       "crafting":"0",
       "status":"0",
       "image":"Toz.JPEG"
-    },
+    }
   },
   "Peacekeeper":{
     "0":{
@@ -577,7 +577,7 @@
       "crafting":"0",
       "status":"0",
       "image":"M.U.L.E._Stimulator_Icon.JPEG"
-    },
+    }
   },
   "Mechanic":{
     "0":{
@@ -729,7 +729,7 @@
       "crafting":"1",
       "status":"0",
       "image":"Capacitorsicon.JPEG"
-    },
+    }
   },
   "Ragman":{
     "000":{
@@ -921,7 +921,7 @@
       "crafting":"0",
       "status":"0",
       "image":"Cow_boy_hat_icon.JPEG"
-    },
+    }
   },
   "Jaeger":{
     "0":{
@@ -1023,6 +1023,6 @@
       "crafting":"1",
       "status":"0",
       "image":"Defibrillatoricon.JPEG"
-    },
-  },
+    }
+  }
 }]
