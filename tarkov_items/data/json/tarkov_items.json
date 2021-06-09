@@ -7,8 +7,7 @@
       "kappa":"1",
       "level":"9",
       "crafting":"1",
-      "status":"0",
-      "image":"6L31-60-mag_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d7/6L31-60-mag_icon.png"
     },
     "1":{
       "name":"AK-74N",
@@ -17,8 +16,7 @@
       "kappa":"1",
       "level":"20",
       "crafting":"1",
-      "status":"0",
-      "image":"AK-74N_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d7/AK-74N_icon.png"
     },
     "2":{
       "name":"M4A1",
@@ -27,7 +25,6 @@
       "kappa":"1",
       "level":"20",
       "crafting":"0",
-      "status":"0",
       "image":"M4standardtrade.JPEG"
     },
     "3":{
@@ -37,7 +34,6 @@
       "kappa":"1",
       "level":"20",
       "crafting":"0",
-      "status":"0",
       "image":"PM_icon.JPEG"
     },
     "4":{
@@ -47,7 +43,6 @@
       "kappa":"1",
       "level":"18",
       "crafting":"0",
-      "status":"0",
       "image":"Lower_half-mask_icon.JPEG"
     },
     "5":{
@@ -57,7 +52,6 @@
       "kappa":"1",
       "level":"20",
       "crafting":"0",
-      "status":"0",
       "image":"A-2607_Bars.JPEG"
     },
     "6":{
@@ -67,7 +61,6 @@
       "kappa":"0",
       "level":"25",
       "crafting":"0",
-      "status":"0",
       "image":"Mil_Batt_icon.JPEG"
     },
     "7":{
@@ -77,7 +70,6 @@
       "kappa":"0",
       "level":"25",
       "crafting":"1",
-      "status":"0",
       "image":"30x160mmShellicon.JPEG"
     }
   },
@@ -89,7 +81,6 @@
       "kappa":"1",
       "level":"1",
       "crafting":"1",
-      "status":"0",
       "image":"EFT_Salewa-First-Aid-Kit_Icon_2.JPEG"
     },
     "1":{
@@ -99,7 +90,6 @@
       "kappa":"1",
       "level":"4 and 8",
       "crafting":"0",
-      "status":"0",
       "image":"Gas_Analyzer_Icon.JPEG"
     },
     "2":{
@@ -109,7 +99,6 @@
       "kappa":"1",
       "level":"8",
       "crafting":"1",
-      "status":"0",
       "image":"EFT_Morphine_Icon.JPEG"
     },
     "3":{
@@ -119,7 +108,6 @@
       "kappa":"1",
       "level":"15",
       "crafting":"1",
-      "status":"0",
       "image":"Can_of_beef_stew_Icon.JPEG"
     },
     "4":{
@@ -129,7 +117,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Car_Battery_Icon.JPEG"
     },
     "5":{
@@ -139,7 +126,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Spark_Plug_Icon_.JPEG"
     },
     "6":{
@@ -149,7 +135,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Ophthalmoscopeicon.JPEG"
     },
     "7":{
@@ -159,7 +144,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"TransilluminatorIcon.JPEG"
     },
     "8":{
@@ -169,7 +153,6 @@
       "kappa":"2",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"AHF1-M_icon.JPEG"
     },
     "90":{
@@ -179,7 +162,6 @@
       "kappa":"2",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"3-%28b-TG%29_icon.JPEG"
     }
   },
@@ -191,7 +173,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"FireSteelIcon.JPEG"
     },
     "1":{
@@ -201,7 +182,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Antique_Axe_icon.JPEG"
     },
     "2":{
@@ -211,7 +191,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"BatteredBookIcon.JPEG"
     },
     "3":{
@@ -221,7 +200,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"FireKlean_icon.JPEG"
     },
     "4":{
@@ -231,7 +209,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"GoldenRoosterIcon.JPEG"
     },
     "5":{
@@ -241,7 +218,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Silver_Badge_icon.JPEG"
     },
     "6":{
@@ -251,7 +227,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Deadlyslobs_beard_oil_icon.JPEG"
     },
     "7":{
@@ -261,7 +236,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"1gphone_icon.JPEG"
     },
     "8":{
@@ -271,7 +245,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"DDGMayoIcon.JPEG"
     },
     "9":{
@@ -281,7 +254,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Can_of_sprats_Icon.JPEG"
     },
     "10":{
@@ -291,7 +263,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Fake_Mustache_icon.JPEG"
     },
     "11":{
@@ -301,7 +272,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Kotton_Beanie_icon.JPEG"
     },
     "12":{
@@ -311,7 +281,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Lupo_Icon.JPEG"
     },
     "13":{
@@ -321,7 +290,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Plague_mask_icon.JPEG"
     },
     "14":{
@@ -331,7 +299,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Raven_figurine_icon.JPEG"
     },
     "15":{
@@ -341,7 +308,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Shroud_Icon.JPEG"
     },
     "16":{
@@ -351,7 +317,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"VeritasGuitarPickIcon.JPEG"
     },
     "17":{
@@ -361,7 +326,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"EnglishTeaIcon.JPEG"
     }
   },
@@ -373,7 +337,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Secure_Flash_drive_Icon.JPEG"
     },
     "1":{
@@ -383,7 +346,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Respirator_icon.JPEG"
     },
     "2":{
@@ -393,7 +355,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Medical_Bloodset_Icon.JPEG"
     },
     "3":{
@@ -403,7 +364,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"3M_icon.JPEG"
     },
     "4":{
@@ -413,7 +373,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Toz.JPEG"
     }
   },
@@ -425,7 +384,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"WD40_100ml_Icon.JPEG"
     },
     "1":{
@@ -435,7 +393,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Clin_Wiper_icon.JPEG"
     },
     "2":{
@@ -445,7 +402,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Bleachicon.JPEG"
     },
     "3":{
@@ -455,7 +411,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"EFT_Morphine_Icon.JPEG"
     },
     "4":{
@@ -465,7 +420,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Heat-exchange_alkali_surface_washer_icon.JPEG"
     },
     "5":{
@@ -475,7 +429,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Hoseicon.JPEG"
     },
     "6":{
@@ -485,7 +438,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"5L_propane_tank_icon.JPEG"
     },
     "7":{
@@ -495,7 +447,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"COFDM_Icon.JPEG"
     },
     "8":{
@@ -505,7 +456,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Virtex_programmable_processor_Icon.JPEG"
     },
     "900":{
@@ -515,7 +465,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"3-%28b-TG%29_icon.JPEG"
     },
     "901":{
@@ -525,7 +474,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"L1_%28Norepinephrine%29_Icon.JPEG"
     },
     "902":{
@@ -535,7 +483,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"P22_Icon.JPEG"
     },
     "903":{
@@ -545,7 +492,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"AHF1-M_icon.JPEG"
     },
     "904":{
@@ -555,7 +501,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"EFT_Morphine_Icon.JPEG"
     },
     "905":{
@@ -565,7 +510,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Cocktail_Obdolbos_Icon.JPEG"
     },
     "906":{
@@ -575,7 +519,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"M.U.L.E._Stimulator_Icon.JPEG"
     }
   },
@@ -587,7 +530,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Powercord_icon.JPEG"
     },
     "1":{
@@ -597,7 +539,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"T-Shaped_Plug_Icon.JPEG"
     },
     "2":{
@@ -607,7 +548,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Circuit_Icon.JPEG"
     },
     "3":{
@@ -617,7 +557,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Graphics_Card_icon.JPEG"
     },
     "4":{
@@ -627,7 +566,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"CPU_Fan_Icon.JPEG"
     },
     "5":{
@@ -637,7 +575,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"PC_CPU_Icon.JPEG"
     },
     "6":{
@@ -647,7 +584,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Recicon.JPEG"
     },
     "7":{
@@ -657,7 +593,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Broken_GPhone_Icon.JPEG"
     },
     "8":{
@@ -667,7 +602,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Malboro_Cigarettes_Icon.JPEG"
     },
     "90":{
@@ -677,7 +611,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Cigred.JPEG"
     },
     "91":{
@@ -687,7 +620,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Wilstonicon.JPEG"
     },
     "92":{
@@ -697,7 +629,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"UHFRFIDIcon.JPEG"
     },
     "93":{
@@ -707,7 +638,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"VPXFlashIcon.JPEG"
     },
     "94":{
@@ -717,7 +647,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Wiresicon.JPEG"
     },
     "95":{
@@ -727,7 +656,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Capacitorsicon.JPEG"
     }
   },
@@ -739,7 +667,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Aramid_Icon_.JPEG"
     },
     "001":{
@@ -749,7 +676,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"ParacordIcon.JPEG"
     },
     "002":{
@@ -759,7 +685,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Ripstop_icon.JPEG"
     },
     "3":{
@@ -769,7 +694,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"KEKTape_icon.JPEG"
     },
     "4":{
@@ -779,7 +703,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Fleece_Icon.JPEG"
     },
     "5":{
@@ -789,7 +712,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Cordura_Icon.JPEG"
     },
     "6":{
@@ -799,7 +721,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Blackrock_Icon.JPEG"
     },
     "7":{
@@ -809,7 +730,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Wartech_gear_rig_icon.JPEG"
     },
     "8":{
@@ -819,7 +739,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Pilgrim_Backpack_icon.JPEG"
     },
     "9":{
@@ -829,7 +748,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"ShmaskaIcon.JPEG"
     },
     "10":{
@@ -839,7 +757,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Fuelcondicon.JPEG"
     },
     "11":{
@@ -849,7 +766,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Bronze_Lion_Icon.JPEG"
     },
     "12":{
@@ -859,7 +775,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Roler_icon.JPEG"
     },
     "13":{
@@ -869,7 +784,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Horse_figurine_Icon.JPEG"
     },
     "14":{
@@ -879,7 +793,6 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Caticon.JPEG"
     },
     "15":{
@@ -889,7 +802,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Teapot_icon.JPEG"
     },
     "16":{
@@ -899,7 +811,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Vaseicon.JPEG"
     },
     "17":{
@@ -909,7 +820,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Ushanka_icon.JPEG"
     },
     "18":{
@@ -919,7 +829,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Cow_boy_hat_icon.JPEG"
     }
   },
@@ -931,7 +840,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Lunchbox_icon.JPEG"
     },
     "1":{
@@ -941,7 +849,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Emeyla_Croutons.JPEG"
     },
     "2":{
@@ -951,7 +858,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Can_of_beef_stew_alt_Icon.JPEG"
     },
     "3":{
@@ -961,7 +867,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"GoldenTTIcon.JPEG"
     },
     "4":{
@@ -971,7 +876,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Maska_1Sch_helmet_icon-1.JPEG"
     },
     "5":{
@@ -981,7 +885,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Shturman_Key_Icon.JPEG"
     },
     "6":{
@@ -991,7 +894,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Secure_Flash_drive_Icon.JPEG"
     },
     "7":{
@@ -1001,7 +903,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"Terragroup_Labs_access_keycard_icon.JPEG"
     },
     "8":{
@@ -1011,7 +912,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "status":"0",
       "image":"CMS_Icon.JPEG"
     },
     "9":{
@@ -1021,7 +921,6 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "status":"0",
       "image":"Defibrillatoricon.JPEG"
     }
   }
