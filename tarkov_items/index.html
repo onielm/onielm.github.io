@@ -32,7 +32,7 @@
       }
       div.vendorPanel {
         display: inline-block;
-        width: 400px;
+        width: 360px;
         color: black;
         background-color: grey;
         padding: 5px;
@@ -89,7 +89,7 @@
       }
       div.vendorName {
         color: black;
-        width: 310px;
+        width: 270px;
         font-size: 24px;
         font-weight: bold;
         padding: 0px;
@@ -124,7 +124,6 @@
         padding: 0px;
         padding-right:2px;
         width: 25%;
-        font-size: 10px;
       }
       div.itemImage {
         width: 40%;
@@ -134,7 +133,7 @@
         padding: 0px;
       }
       img.itemIcon {
-        max-height: 105px;
+        max-height: 110px;
         max-width: 100%;
       }
       div.itemInfo {
@@ -163,10 +162,13 @@
         height: 30%;
       }
       button.setStatus {
+        font-size: 14px;
         width: 100%;
         color: black;
         font-weight: bold;
-        padding: 5px;
+        padding: 3px;
+        padding-bottom : 7px;
+        padding-top: 7px;
         text-decoration: none;
       }
       button.notFound {
@@ -225,8 +227,8 @@
             <div class="container-fluid">
               <div class="row">
                 <div class="col-sm-4 buttons">
-                  <button class="setStatus notFound" type="button" name="button" value="0">Not Found</button><br>
-                  <button class="setStatus inStash" type="button" name="button" value="1">In Stash</button><br>
+                  <button class="setStatus notFound" type="button" name="button" value="0">Not Found</button>
+                  <button class="setStatus inStash" type="button" name="button" value="1">In Stash</button>
                   <button class="setStatus turnedIn" type="button" name="button" value="2">Turned In</button>
                 </div>
                 <div class="col-sm-4 itemImage">
@@ -424,14 +426,37 @@ $( document ).ready(function() {
         newItemCard.find(".itemText").html(amounNeeded+"x<br> "+itemName);
         newItemCard.find(".itemImage img").attr("src",itemImageURL);
         newItemCard.find(".itemImage img").attr("alt",itemName);
-        if (kappaRequired == "1"){
-          newItemCard.find(".itemKappa").remove();
-        }
-        if (craftable == "0"){
-          newItemCard.find(".itemCraft").remove();
-        }
 
-        $(vendorId).append(newItemCard);
+        var img = new Image();
+
+        img.onload = function(){
+          var height = img.height;
+          var width = img.width;
+
+          if (height>width){
+            var ratio = 110/height;
+            var newWidth = width*ratio+"px";
+            newItemCard.find(".itemImage img").css({
+              "width" : newWidth
+            });
+          } else if (height == width && height == "64"){
+            var ratio = 1.15;
+            var newWidth = width*ratio+"px";
+            newItemCard.find(".itemImage img").css({
+              "width" : newWidth
+            });
+          }
+
+          if (kappaRequired == "1"){
+            newItemCard.find(".itemKappa").remove();
+          }
+          if (craftable == "0"){
+            newItemCard.find(".itemCraft").remove();
+          }
+
+          $(vendorId).append(newItemCard);
+        }
+        img.src = itemImageURL;
       });
       var totalItems = Object.keys(items).length;
       // $(vendorId).css("padding-bottom", ((mostItems-totalItems)*140)+"px");
