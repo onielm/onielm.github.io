@@ -25,7 +25,7 @@
       "kappa":"1",
       "level":"20",
       "crafting":"0",
-      "image":"M4standardtrade.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/3f/M4standardtrade.png"
     },
     "3":{
       "name":"PM",
@@ -34,7 +34,7 @@
       "kappa":"1",
       "level":"20",
       "crafting":"0",
-      "image":"PM_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/38/PM_icon.png"
     },
     "4":{
       "name":"Lower half-mask",
@@ -43,7 +43,7 @@
       "kappa":"1",
       "level":"18",
       "crafting":"0",
-      "image":"Lower_half-mask_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f4/Lower_half-mask_icon.png"
     },
     "5":{
       "name":"Bars A-2607",
@@ -52,7 +52,7 @@
       "kappa":"1",
       "level":"20",
       "crafting":"0",
-      "image":"A-2607_Bars.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8c/A-2607_Bars.png"
     },
     "6":{
       "name":"Military Battery",
@@ -61,7 +61,7 @@
       "kappa":"0",
       "level":"25",
       "crafting":"0",
-      "image":"Mil_Batt_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/2a/Mil_Batt_icon.png"
     },
     "7":{
       "name":"OFZ 30x160mm shell",
@@ -70,7 +70,7 @@
       "kappa":"0",
       "level":"25",
       "crafting":"1",
-      "image":"30x160mmShellicon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/9d/30x160mmShellicon.png"
     }
   },
   "Therapist":{
@@ -81,7 +81,7 @@
       "kappa":"1",
       "level":"1",
       "crafting":"1",
-      "image":"EFT_Salewa-First-Aid-Kit_Icon_2.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/77/EFT_Salewa-First-Aid-Kit_Icon_2.png"
     },
     "1":{
       "name":"Gaz Analizer",
@@ -90,7 +90,7 @@
       "kappa":"1",
       "level":"4 and 8",
       "crafting":"0",
-      "image":"Gas_Analyzer_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/1d/Gas_Analyzer_Icon.png"
     },
     "2":{
       "name":"Morphine injector",
@@ -99,7 +99,7 @@
       "kappa":"1",
       "level":"8",
       "crafting":"1",
-      "image":"EFT_Morphine_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/99/EFT_Morphine_Icon.png"
     },
     "3":{
       "name":"Can of beef stew",
@@ -108,7 +108,7 @@
       "kappa":"1",
       "level":"15",
       "crafting":"1",
-      "image":"Can_of_beef_stew_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a7/Can_of_beef_stew_Icon.png"
     },
     "4":{
       "name":"Car battery",
@@ -117,7 +117,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Car_Battery_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a0/Car_Battery_Icon.png"
     },
     "5":{
       "name":"Spark plug",
@@ -126,7 +126,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Spark_Plug_Icon_.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/46/Spark_Plug_Icon_.png"
     },
     "6":{
       "name":"Ophthalmoscope",
@@ -135,7 +135,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Ophthalmoscopeicon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f6/Ophthalmoscopeicon.png"
     },
     "7":{
       "name":"LEDX",
@@ -144,7 +144,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"TransilluminatorIcon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/4e/TransilluminatorIcon.png"
     },
     "8":{
       "name":"AHF1-M",
@@ -153,7 +153,7 @@
       "kappa":"2",
       "level":"0",
       "crafting":"0",
-      "image":"AHF1-M_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/65/AHF1-M_icon.png"
     },
     "90":{
       "name":"3-(b-TG)",
@@ -162,7 +162,7 @@
       "kappa":"2",
       "level":"0",
       "crafting":"0",
-      "image":"3-%28b-TG%29_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f7/3-%28b-TG%29_icon.png"
     }
   },
   "Fence":{
@@ -173,7 +173,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"FireSteelIcon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/87/FireSteelIcon.png"
     },
     "1":{
       "name":"Antique axe",
@@ -182,7 +182,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Antique_Axe_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8a/Antique_Axe.png"
     },
     "2":{
       "name":"Battered antique Book",
@@ -191,7 +191,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"BatteredBookIcon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/63/BatteredBookIcon.png"
     },
     "3":{
       "name":"FireKlean gun lube",
@@ -200,7 +200,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"FireKlean_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/09/FireKlean_icon.png"
     },
     "4":{
       "name":"Golden rooster",
@@ -209,7 +209,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"GoldenRoosterIcon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/4d/GoldenRoosterIcon.png"
     },
     "5":{
       "name":"Silver Badge",
@@ -218,7 +218,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Silver_Badge_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/41/Silver_Badge_icon.png"
     },
     "6":{
       "name":"Deadlyslob's beard oil",
@@ -227,7 +227,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Deadlyslobs_beard_oil_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/6b/Deadlyslobs_beard_oil_icon.png"
     },
     "7":{
       "name":"Golden 1GPhone",
@@ -236,7 +236,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"1gphone_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/fe/1gphone_icon.png"
     },
     "8":{
       "name":"Jar of DevilDog mayo",
@@ -245,7 +245,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"DDGMayoIcon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/ea/DDGMayoIcon.png"
     },
     "9":{
       "name":"Can of sprats",
@@ -254,7 +254,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Can_of_sprats_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d6/Can_of_sprats_Icon.png"
     },
     "10":{
       "name":"Fake mustache",
@@ -263,7 +263,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Fake_Mustache_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/72/Fake_Mustache_icon.png"
     },
     "11":{
       "name":"Kotton beanie",
@@ -272,7 +272,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Kotton_Beanie_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/ec/Kotton_Beanie_icon.png"
     },
     "12":{
       "name":"Can of Dr. Lupo's coffee beans",
@@ -281,7 +281,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Lupo_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e8/Lupo_Icon.png"
     },
     "13":{
       "name":"Pestily plague mask",
@@ -290,7 +290,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Plague_mask_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/9b/Plague_mask_icon.png"
     },
     "14":{
       "name":"Raven figurine",
@@ -299,7 +299,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Raven_figurine_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c0/Raven_figurine_icon.png"
     },
     "15":{
       "name":"Shroud half-mask",
@@ -308,7 +308,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Shroud_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/81/Shroud_Icon.png"
     },
     "16":{
       "name":"Veritas guitar pick",
@@ -317,7 +317,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"VeritasGuitarPickIcon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/ae/VeritasGuitarPickIcon.png"
     },
     "17":{
       "name":"42nd Signature Blend English Tea",
@@ -326,7 +326,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"EnglishTeaIcon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e6/EnglishTeaIcon.png"
     }
   },
   "Skier":{
@@ -337,7 +337,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Secure_Flash_drive_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png"
     },
     "1":{
       "name":"Respirator",
@@ -346,7 +346,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Respirator_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/ed/Respirator_icon.png"
     },
     "2":{
       "name":"Medical Bloodset",
@@ -355,7 +355,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Medical_Bloodset_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/56/Medical_Bloodset_Icon.png"
     },
     "3":{
       "name":"Module-3M Bodyarmor",
@@ -364,7 +364,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"3M_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f8/3M_icon.png"
     },
     "4":{
       "name":"TOZ-106 bolt-action shotgun",
@@ -373,7 +373,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Toz.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5b/Toz.png"
     }
   },
   "Peacekeeper":{
@@ -384,7 +384,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"WD40_100ml_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/06/WD40_100ml_Icon.png"
     },
     "1":{
       "name":"Clin Wiper",
@@ -393,7 +393,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Clin_Wiper_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/2b/Clin_Wiper_icon.png"
     },
     "2":{
       "name":"Ox Bleach",
@@ -402,7 +402,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Bleachicon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/77/Bleachicon.png"
     },
     "3":{
       "name":"Morphine injector",
@@ -411,7 +411,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"EFT_Morphine_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/99/EFT_Morphine_Icon.png"
     },
     "4":{
       "name":"Heat-exchange alkali surface washer",
@@ -420,7 +420,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Heat-exchange_alkali_surface_washer_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b3/Heat-exchange_alkali_surface_washer_icon.png"
     },
     "5":{
       "name":"Hose",
@@ -429,7 +429,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Hoseicon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b0/Hoseicon.png"
     },
     "6":{
       "name":"Propane",
@@ -438,7 +438,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"5L_propane_tank_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/14/5L_propane_tank_icon.png"
     },
     "7":{
       "name":"Military COFDM wireless Signal Transmitter",
@@ -447,7 +447,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"COFDM_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/3a/COFDM_Icon.png"
     },
     "8":{
       "name":"Virtex programmable processor",
@@ -456,7 +456,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Virtex_programmable_processor_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/0d/Virtex_programmable_processor_Icon.png"
     },
     "900":{
       "name":"3-(b-TG)",
@@ -465,7 +465,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "image":"3-%28b-TG%29_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f7/3-%28b-TG%29_icon.png"
     },
     "901":{
       "name":"L1 (Norepinephrine)",
@@ -474,7 +474,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "image":"L1_%28Norepinephrine%29_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/bc/L1_%28Norepinephrine%29_Icon.png"
     },
     "902":{
       "name":"P22",
@@ -483,7 +483,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "image":"P22_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/2e/P22_Icon.png"
     },
     "903":{
       "name":"AHF1-M",
@@ -492,7 +492,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "image":"AHF1-M_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/65/AHF1-M_icon.png"
     },
     "904":{
       "name":"Meldonin",
@@ -501,7 +501,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "image":"EFT_Morphine_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/30/Meldonin_Icon.png"
     },
     "905":{
       "name":"Cocktail Obdolbos",
@@ -510,7 +510,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "image":"Cocktail_Obdolbos_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/51/Cocktail_Obdolbos_Icon.png"
     },
     "906":{
       "name":"M.U.L.E",
@@ -519,7 +519,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "image":"M.U.L.E._Stimulator_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c2/M.U.L.E._Stimulator_Icon.png"
     }
   },
   "Mechanic":{
@@ -530,7 +530,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Powercord_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e1/Powercord_icon.png"
     },
     "1":{
       "name":"T-Shaped Plug",
@@ -539,7 +539,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"T-Shaped_Plug_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/4f/T-Shaped_Plug_Icon.png"
     },
     "2":{
       "name":"Printed circuit board",
@@ -548,7 +548,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Circuit_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c5/Circuit_Icon.png"
     },
     "3":{
       "name":"Graphics card",
@@ -557,7 +557,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Graphics_Card_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b3/Graphics_Card_icon.png"
     },
     "4":{
       "name":"CPU Fan",
@@ -566,7 +566,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"CPU_Fan_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a8/CPU_Fan_Icon.png"
     },
     "5":{
       "name":"PC CPU",
@@ -575,7 +575,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"PC_CPU_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/9e/PC_CPU_Icon.png"
     },
     "6":{
       "name":"Rechargeable battery",
@@ -584,7 +584,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Recicon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/28/Recicon.png"
     },
     "7":{
       "name":"Broken GPhone",
@@ -593,7 +593,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Broken_GPhone_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/be/Broken_GPhone_Icon.png"
     },
     "8":{
       "name":"Malboro Cigarettes",
@@ -602,7 +602,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Malboro_Cigarettes_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/44/Malboro_Cigarettes_Icon.png"
     },
     "90":{
       "name":"Strike Cigarettes",
@@ -611,7 +611,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Cigred.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/46/Cigred.png"
     },
     "91":{
       "name":"Wilston cigarettes",
@@ -620,7 +620,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Wilstonicon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/af/Wilstonicon.png"
     },
     "92":{
       "name":"UHF RFID Reader",
@@ -629,7 +629,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"1",
-      "image":"UHFRFIDIcon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f6/UHFRFIDIcon.png"
     },
     "93":{
       "name":"VPX Flash Storage Module",
@@ -638,7 +638,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"1",
-      "image":"VPXFlashIcon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/88/VPXFlashIcon.png"
     },
     "94":{
       "name":"Wires",
@@ -647,7 +647,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Wiresicon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a4/Wiresicon.png"
     },
     "95":{
       "name":"Capacitors",
@@ -656,7 +656,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Capacitorsicon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e3/Capacitorsicon.png"
     }
   },
   "Ragman":{
@@ -667,7 +667,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"1",
-      "image":"Aramid_Icon_.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c6/Aramid_Icon_.png"
     },
     "001":{
       "name":"Paracord",
@@ -676,7 +676,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"1",
-      "image":"ParacordIcon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/17/ParacordIcon.png"
     },
     "002":{
       "name":"Ripstop cloth",
@@ -685,7 +685,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"1",
-      "image":"Ripstop_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/0b/Ripstop_icon.png"
     },
     "3":{
       "name":"KEKTAPE duct tape",
@@ -694,7 +694,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"1",
-      "image":"KEKTape_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/0f/KEKTape_icon.png"
     },
     "4":{
       "name":"Fleece cloth",
@@ -703,7 +703,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"1",
-      "image":"Fleece_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d5/Fleece_Icon.png"
     },
     "5":{
       "name":"Polyamide fabric Cordura",
@@ -712,7 +712,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"1",
-      "image":"Cordura_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/08/Cordura_Icon.png"
     },
     "6":{
       "name":"BlackRock chest rig",
@@ -721,7 +721,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Blackrock_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/ac/Blackrock_Icon.png"
     },
     "7":{
       "name":"Wartech gear rig",
@@ -730,7 +730,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Wartech_gear_rig_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/57/Wartech_gear_rig_icon.png"
     },
     "8":{
       "name":"Pilgrim tourist backpack",
@@ -739,7 +739,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Pilgrim_Backpack_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/fe/Pilgrim_Backpack_icon.png"
     },
     "9":{
       "name":"Ski hat with holes for eyes",
@@ -748,7 +748,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"ShmaskaIcon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/24/ShmaskaIcon.png"
     },
     "10":{
       "name":"Fuel conditioner",
@@ -757,7 +757,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Fuelcondicon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/04/Fuelcondicon.png"
     },
     "11":{
       "name":"Bronze lion",
@@ -766,7 +766,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "image":"Bronze_Lion_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c2/Bronze_Lion_Icon.png"
     },
     "12":{
       "name":"Roler submariner gold wrist watch",
@@ -775,7 +775,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "image":"Roler_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e7/Roler_icon.png"
     },
     "13":{
       "name":"Horse Figurine",
@@ -784,7 +784,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "image":"Horse_figurine_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/27/Horse_figurine_Icon.png"
     },
     "14":{
       "name":"Cat figurine",
@@ -793,7 +793,7 @@
       "kappa":"0",
       "level":"0",
       "crafting":"0",
-      "image":"Caticon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/36/Caticon.png"
     },
     "15":{
       "name":"Antique teapot",
@@ -802,7 +802,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Teapot_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/4c/Vaseicon.png"
     },
     "16":{
       "name":"Antique vase",
@@ -811,7 +811,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Vaseicon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/2b/Teapot_icon.png"
     },
     "17":{
       "name":"Ushanka ear-flap cap",
@@ -820,7 +820,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Ushanka_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b8/Ushanka_icon.png"
     },
     "18":{
       "name":"Cowboy Hat",
@@ -829,7 +829,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Cow_boy_hat_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/44/Cow_boy_hat_icon.png"
     }
   },
   "Jaeger":{
@@ -840,7 +840,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Lunchbox_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8f/Lunchbox_icon.png"
     },
     "1":{
       "name":"Emelya rye croutons",
@@ -849,7 +849,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Emeyla_Croutons.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c1/Emeyla_Croutons.png"
     },
     "2":{
       "name":"Can of delicious beef stew",
@@ -858,7 +858,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Can_of_beef_stew_alt_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/ad/Can_of_beef_stew_alt_Icon.png"
     },
     "3":{
       "name":"TT pistol 7.62x25 TT Gold",
@@ -867,7 +867,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"GoldenTTIcon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/98/GoldenTTIcon.png"
     },
     "4":{
       "name":"Maska 1Sch helmet (Killa)",
@@ -876,7 +876,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Maska_1Sch_helmet_icon-1.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/02/Maska_1Sch_helmet_icon.gif"
     },
     "5":{
       "name":"Shturman key",
@@ -885,7 +885,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Shturman_Key_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/3e/Shturman_Key_Icon.png"
     },
     "6":{
       "name":"Secure Flash Drive",
@@ -894,7 +894,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Secure_Flash_drive_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png"
     },
     "7":{
       "name":"TerraGroup Labs access keycard",
@@ -903,7 +903,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"Terragroup_Labs_access_keycard_icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/79/Terragroup_Labs_access_keycard_icon.png"
     },
     "8":{
       "name":"CMS Kit",
@@ -912,7 +912,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"0",
-      "image":"CMS_Icon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/6d/CMS_Icon.png"
     },
     "9":{
       "name":"Defribillator",
@@ -921,7 +921,7 @@
       "kappa":"1",
       "level":"0",
       "crafting":"1",
-      "image":"Defibrillatoricon.JPEG"
+      "image":"https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/81/Defibrillatoricon.png"
     }
   }
 }]
