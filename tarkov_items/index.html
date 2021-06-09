@@ -447,16 +447,17 @@ $( document ).ready(function() {
             });
           }
 
-          if (kappaRequired == "1"){
-            newItemCard.find(".itemKappa").remove();
-          }
-          if (craftable == "0"){
-            newItemCard.find(".itemCraft").remove();
-          }
-
-          $(vendorId).append(newItemCard);
         }
         img.src = itemImageURL;
+
+        if (kappaRequired == "1"){
+          newItemCard.find(".itemKappa").remove();
+        }
+        if (craftable == "0"){
+          newItemCard.find(".itemCraft").remove();
+        }
+
+        $(vendorId).append(newItemCard);
       });
       var totalItems = Object.keys(items).length;
       // $(vendorId).css("padding-bottom", ((mostItems-totalItems)*140)+"px");
