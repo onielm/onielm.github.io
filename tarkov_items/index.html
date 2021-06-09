@@ -19,7 +19,6 @@
         width: 100%;
         color: white;
         background-color: #151515;
-        /* position: relative; */
       }
       div.backPanel {
         top:500;
@@ -30,7 +29,6 @@
         padding-left: 30px;
         /* overflow-x: auto; */
         margin-bottom: 100px;
-        /* position: relative; */
       }
       div.vendorPanel {
         display: inline-block;
@@ -40,7 +38,14 @@
         padding: 5px;
         text-decoration: none;
         white-space: normal;
-        /* position: absolute; */
+      }
+      .row {
+        display: flex;
+        /* flex-wrap: wrap; */
+      }
+      .row > [class*='col-'] {
+        display: flex;
+        flex-direction: column;
       }
       #Prapor{
         background-color: #2B230F;
@@ -66,27 +71,42 @@
       #Jaeger{
         background-color: #907F65;
       }
+      /* div.container-fluid {
+        padding: 0px;
+      } */
       div.vendorInfo {
         color: black;
-        width: auto;
-        padding: 10px;
+        width: 400px;
+        padding: 5px;
         text-decoration: none;
         margin-bottom: 5px;
         padding: 0px;
-        padding-right: 10px;
+        /* padding-right: 10px; */
+        position: relative;
+        white-space: nowrap;
+        /* overflow: auto; */
+
       }
       div.vendorName {
         color: black;
-        width: 80%;
-        font-size: 32px;
+        width: 310px;
+        font-size: 24px;
         font-weight: bold;
-        padding: 10px;
+        padding: 0px;
+        margin: 0px;
         text-decoration: none;
         margin-bottom: 5px;
         text-align: center;
       }
       div.vendorImage {
-        width: 20%;
+        width: 80px;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+      }
+      img.vendorIcon {
+        width: auto;
+        text-align: center;
       }
       div.itemCard {
         color: black;
@@ -96,12 +116,15 @@
         text-decoration: none;
         background-color: red;
         border: solid black 5px;
+        margin: 0px;
         margin-bottom: 5px;
+        /* overflow: auto; */
       }
       div.buttons {
         padding: 0px;
         padding-right:2px;
         width: 25%;
+        font-size: 10px;
       }
       div.itemImage {
         width: 40%;
@@ -110,12 +133,13 @@
         margin: 0px;
         padding: 0px;
       }
-      .imag {
+      img.itemIcon {
         max-height: 105px;
         max-width: 100%;
       }
       div.itemInfo {
-        height: 105px;
+        height: 100%;
+        width: 35%;
         margin: 0px;
         margin-left: 2px;
         padding: 3px;
@@ -123,9 +147,11 @@
         word-wrap: break-word;
       }
       div.itemText {
+        /* -webkit-text-stroke: 0.1px white; */
+        color: black;
         width: 100%;
         height: 70%;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: bold;
       }
       div.itemCraft {
@@ -162,14 +188,30 @@
     <div class="jumbotron text-center banner">
       <h1>Tarkov Items</h1>
       <p>Items needed to be found in-raid for quests</p>
+      <p>
+        <img class="" alt="6L31-60-mag icon.png"
+        src="https://github.com/onielm/tarkov_items_web/blob/main/images/tools.png?raw=true"
+        decoding="async" width="25" height="25">
+        = it can be crafted
+      </p>
+      <p>
+        <img class="" alt="6L31-60-mag icon.png"
+        src="https://github.com/onielm/tarkov_items_web/blob/main/images/not_kappa.png?raw=true"
+        decoding="async" width="25" height="25">
+        = it's not needed for Kappa
+      </p>
     </div>
-    <div class="container backPanel">
+
+    <div class="container-fluid backPanel">
       <div class="row">
-        <div class="col-sm vendorPanel" id="Prapor">
+
+        <div class="col-4 vendorPanel" id="Prapor">
           <div class="col-sm vendorInfo">
             <div class="container-fluid">
+              <div class="row">
+
               <div class="col-sm-4 vendorName">
-                Prapor
+                Therapist
               </div>
               <div class="col-sm-4 vendorImage">
                 <img alt="Prapor"
@@ -177,6 +219,7 @@
                 decoding="async" title="Prapor" width="80" height="80">
               </div>
             </div>
+          </div>
           </div>
           <div class="col-sm itemCard" id="itemCardTemplate">
             <div class="container-fluid">
@@ -187,10 +230,9 @@
                   <button class="setStatus turnedIn" type="button" name="button" value="2">Turned In</button>
                 </div>
                 <div class="col-sm-4 itemImage">
-                  <img class="imag" alt="6L31-60-mag icon.png"
+                  <img class="itemIcon" alt="6L31-60-mag icon.png"
                   src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d7/6L31-60-mag_icon.png"
                   decoding="async">
-                  <!-- decoding="async" width="64" height="127"> -->
                 </div>
                 <div class="col-sm-4 itemInfo">
                   <div class="itemText">
@@ -214,9 +256,11 @@
             </div>
           </div>
         </div>
-        <div class="col-sm vendorPanel" id="Therapist">
+        <div class="col-4 vendorPanel" id="Therapist">
           <div class="col-sm vendorInfo">
             <div class="container-fluid">
+              <div class="row">
+
               <div class="col-sm-4 vendorName">
                 Therapist
               </div>
@@ -227,10 +271,13 @@
               </div>
             </div>
           </div>
+          </div>
         </div>
-        <div class="col-sm vendorPanel" id="Fence">
+        <div class="col-4 vendorPanel" id="Fence">
           <div class="col-sm vendorInfo">
             <div class="container-fluid">
+              <div class="row">
+
               <div class="col-sm-4 vendorName">
                 Fence
               </div>
@@ -241,10 +288,13 @@
               </div>
             </div>
           </div>
+          </div>
         </div>
-        <div class="col-sm vendorPanel" id="Skier">
+        <div class="col-4 vendorPanel" id="Skier">
           <div class="col-sm vendorInfo">
             <div class="container-fluid">
+              <div class="row">
+
               <div class="col-sm-4 vendorName">
                 Skier
               </div>
@@ -255,10 +305,13 @@
               </div>
             </div>
           </div>
+          </div>
         </div>
-        <div class="col-sm vendorPanel" id="Peacekeeper">
+        <div class="col-4 vendorPanel" id="Peacekeeper">
           <div class="col-sm vendorInfo">
             <div class="container-fluid">
+              <div class="row">
+
               <div class="col-sm-4 vendorName">
                 Peacekeeper
               </div>
@@ -269,10 +322,13 @@
               </div>
             </div>
           </div>
+          </div>
         </div>
-        <div class="col-sm vendorPanel" id="Mechanic">
+        <div class="col-4 vendorPanel" id="Mechanic">
           <div class="col-sm vendorInfo">
             <div class="container-fluid">
+              <div class="row">
+
               <div class="col-sm-4 vendorName">
                 Mechanic
               </div>
@@ -283,10 +339,13 @@
               </div>
             </div>
           </div>
+          </div>
         </div>
-        <div class="col-sm vendorPanel" id="Ragman">
+        <div class="col-4 vendorPanel" id="Ragman">
           <div class="col-sm vendorInfo">
             <div class="container-fluid">
+              <div class="row">
+
               <div class="col-sm-4 vendorName">
                 Ragman
               </div>
@@ -297,10 +356,13 @@
               </div>
             </div>
           </div>
+          </div>
         </div>
-        <div class="col-sm vendorPanel" id="Jaeger">
+        <div class="col-4 vendorPanel" id="Jaeger">
           <div class="col-sm vendorInfo">
             <div class="container-fluid">
+              <div class="row">
+
               <div class="col-sm-4 vendorName">
                 Jaeger
               </div>
@@ -311,12 +373,16 @@
               </div>
             </div>
           </div>
+          </div>
         </div>
 
       </div>
     </div>
     <div class="jumbotron text-center banner">
       <button class="resetProgress" type="button">Reset Progress (requieres refresh)</button><br>
+      <p>All traders and items images are from
+        <a href="https://escapefromtarkov.fandom.com/wiki/Escape_from_Tarkov_Wiki">the EFT wiki</a>
+     </p>
     </div>
   </body>
 </html>
@@ -368,7 +434,7 @@ $( document ).ready(function() {
         $(vendorId).append(newItemCard);
       });
       var totalItems = Object.keys(items).length;
-      $(vendorId).css("margin-bottom", ((mostItems-totalItems)*140)+"px");
+      // $(vendorId).css("padding-bottom", ((mostItems-totalItems)*140)+"px");
     });
 
     // change status of item on click
@@ -403,7 +469,7 @@ $( document ).ready(function() {
 
   $(".resetProgress").on("click", function(){
     //
-    var answer = confirm("Want to delete?");
+    var answer = confirm('Do you want to reset all items to "Not Found"?\n(manual refresh required)');
       if (answer) {
         var cookies = { ...localStorage };
 
