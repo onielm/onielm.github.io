@@ -19,6 +19,7 @@
         width: 100%;
         color: white;
         background-color: #151515;
+        margin-bottom: 5px;
       }
       div.backPanel {
         top:500;
@@ -120,6 +121,7 @@
         margin-bottom: 5px;
         max-width: 500px;
         /* overflow: auto; */
+        z-index: 0;
       }
       div.buttons {
         padding: 0px;
@@ -187,6 +189,18 @@
       button.changeView {
         color: black;
         max-width: 90%;
+        font-weight: bold;
+      }
+      div.changeVendorButtons {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        text-align: center;
+        top: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 5px;
+        background: #151515;
+        z-index: 1;
       }
       button.changeVendor {
         color: black;
@@ -199,13 +213,9 @@
         /* height: 10%; */
       }
       button.prevVendor {
-        color: black;
-        /* position: fixed; */
         left: 0px;
       }
       button.nextVendor {
-        color: black;
-        /* position: fixed; */
         right: 10%;
       }
     </style>
@@ -231,7 +241,7 @@
         <button type="button" class="changeView" name="changeView" id="changeView">Change to single vendor view (recommended for mobile) </button>
       </p>
     </div>
-    <div class="text-center">
+    <div class="changeVendorButtons">
       <button class="changeVendor prevVendor"type="button" name="button">&lt Previous Vendor</button>
       <button class="changeVendor nextVendor"type="button" name="button">Next Vendor &gt</button>
     </div>
@@ -246,7 +256,7 @@
               <div class="row">
 
               <div class="col-sm-4 vendorName">
-                Therapist
+                Prapor
               </div>
               <div class="col-sm-4 vendorImage">
                 <img alt="Prapor"
@@ -295,14 +305,13 @@
           <div class="col-sm vendorInfo">
             <div class="container-fluid">
               <div class="row">
-
               <div class="col-sm-4 vendorName">
                 Therapist
               </div>
               <div class="col-sm-4 vendorImage">
-                <img alt="Prapor"
+                <img alt="Therapist"
                 src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c7/Therapist_Portrait.png"
-                decoding="async" title="Prapor" width="80" height="80">
+                decoding="async" title="Therapist" width="80" height="80">
               </div>
             </div>
           </div>
@@ -312,14 +321,13 @@
           <div class="col-sm vendorInfo">
             <div class="container-fluid">
               <div class="row">
-
               <div class="col-sm-4 vendorName">
                 Fence
               </div>
               <div class="col-sm-4 vendorImage">
-                <img alt="Prapor"
+                <img alt="Fence"
                 src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f7/Fence_Portrait.png"
-                decoding="async" title="Prapor" width="80" height="80">
+                decoding="async" title="Fence" width="80" height="80">
               </div>
             </div>
           </div>
@@ -329,14 +337,13 @@
           <div class="col-sm vendorInfo">
             <div class="container-fluid">
               <div class="row">
-
               <div class="col-sm-4 vendorName">
                 Skier
               </div>
               <div class="col-sm-4 vendorImage">
-                <img alt="Prapor"
+                <img alt="Skier"
                 src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/0a/Skier_Portrait.png"
-                decoding="async" title="Prapor" width="80" height="80">
+                decoding="async" title="Skier" width="80" height="80">
               </div>
             </div>
           </div>
@@ -346,14 +353,13 @@
           <div class="col-sm vendorInfo">
             <div class="container-fluid">
               <div class="row">
-
               <div class="col-sm-4 vendorName">
                 Peacekeeper
               </div>
               <div class="col-sm-4 vendorImage">
-                <img alt="Prapor"
+                <img alt="Peacekeeper"
                 src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/08/Peacekeeper_Portrait.png"
-                decoding="async" title="Prapor" width="80" height="80">
+                decoding="async" title="Peacekeeper" width="80" height="80">
               </div>
             </div>
           </div>
@@ -363,14 +369,13 @@
           <div class="col-sm vendorInfo">
             <div class="container-fluid">
               <div class="row">
-
               <div class="col-sm-4 vendorName">
                 Mechanic
               </div>
               <div class="col-sm-4 vendorImage">
-                <img alt="Prapor"
+                <img alt="Mechanic"
                 src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/ef/Mechanic_Portrait.png"
-                decoding="async" title="Prapor" width="80" height="80">
+                decoding="async" title="Mechanic" width="80" height="80">
               </div>
             </div>
           </div>
@@ -380,14 +385,13 @@
           <div class="col-sm vendorInfo">
             <div class="container-fluid">
               <div class="row">
-
               <div class="col-sm-4 vendorName">
                 Ragman
               </div>
               <div class="col-sm-4 vendorImage">
-                <img alt="Prapor"
+                <img alt="Ragman"
                 src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8b/Ragman_Portrait.png"
-                decoding="async" title="Prapor" width="80" height="80">
+                decoding="async" title="Ragman" width="80" height="80">
               </div>
             </div>
           </div>
@@ -397,14 +401,13 @@
           <div class="col-sm vendorInfo">
             <div class="container-fluid">
               <div class="row">
-
               <div class="col-sm-4 vendorName">
                 Jaeger
               </div>
               <div class="col-sm-4 vendorImage">
-                <img alt="Prapor"
+                <img alt="Jaeger"
                 src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d1/Jaeger_Portrait.png"
-                decoding="async" title="Prapor" width="80" height="80">
+                decoding="async" title="Jaeger" width="80" height="80">
               </div>
             </div>
           </div>
