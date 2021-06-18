@@ -32,7 +32,7 @@
       }
       div.vendorPanel {
         display: inline-block;
-        width: 360px;
+        width: 95%;
         color: black;
         background-color: grey;
         padding: 5px;
@@ -118,6 +118,7 @@
         border: solid black 5px;
         margin: 0px;
         margin-bottom: 5px;
+        max-width: 500px;
         /* overflow: auto; */
       }
       div.buttons {
@@ -162,7 +163,7 @@
         height: 30%;
       }
       button.setStatus {
-        font-size: 14px;
+        font-size: 13px;
         width: 100%;
         color: black;
         font-weight: bold;
@@ -183,6 +184,30 @@
       button.resetProgress {
         color: black;
       }
+      button.changeView {
+        color: black;
+        max-width: 90%;
+      }
+      button.changeVendor {
+        color: black;
+        font-weight: bold;
+        font-size: 12px;
+        top: 30%;
+        width: 40%;
+        height: 50px;
+        max-width: 300px;
+        /* height: 10%; */
+      }
+      button.prevVendor {
+        color: black;
+        /* position: fixed; */
+        left: 0px;
+      }
+      button.nextVendor {
+        color: black;
+        /* position: fixed; */
+        right: 10%;
+      }
     </style>
   </head>
   <body>
@@ -202,7 +227,15 @@
         decoding="async" width="25" height="25">
         = it's not needed for Kappa
       </p>
+      <p>
+        <button type="button" class="changeView" name="changeView" id="changeView">Change to single vendor view (recommended for mobile) </button>
+      </p>
     </div>
+    <div class="text-center">
+      <button class="changeVendor prevVendor"type="button" name="button">&lt Previous Vendor</button>
+      <button class="changeVendor nextVendor"type="button" name="button">Next Vendor &gt</button>
+    </div>
+
 
     <div class="container-fluid backPanel">
       <div class="row">
@@ -396,6 +429,7 @@ $( document ).ready(function() {
   // PAGE LOAD
   var itemCardTemplate = $("#itemCardTemplate").clone(true);
   $(".itemCard").remove();
+  $(".changeVendor").hide();
 
 
   //create all items per vendor
@@ -504,5 +538,118 @@ $( document ).ready(function() {
         });
       }
   });
+  $(".resetProgress").on("click", function(){
+    //
+    var answer = confirm('Do you want to reset all items to "Not Found"?\n(manual refresh required)');
+      if (answer) {
+        var cookies = { ...localStorage };
+
+        $.each(cookies, function( key, value ) {
+          localStorage.setItem(key, "0");
+        });
+      }
+  });
+  $(".changeView").on("click", function(){
+    //
+    var cookies = { ...localStorage };
+
+    var currentVendor = localStorage.getItem("currentVendor");
+    if (currentVendor == null){
+      localStorage.setItem("currentVendor", "Prapor");
+    }
+    var currentView = localStorage.getItem("currentView");
+    if (currentView == null){
+      localStorage.setItem("currentView", "0");
+    }
+
+    if (currentView == "0"){
+      localStorage.setItem("currentView", "1");
+
+      var vendorPanels = $(".vendorPanel");
+      $.each(vendorPanels, function(key, panel){
+        // var panelId = ;
+        if ($(panel).attr("id") != currentVendor){
+          $(panel).hide();
+        }
+      });
+      $(this).html("Change to all vendor view")
+      $(".changeVendor").show();
+    }
+    else if (currentView == "1"){
+      localStorage.setItem("currentView", "0");
+
+      // var vendorPanels =
+      $(".vendorPanel").show()
+      // vendorPanels.show();
+      $(this).html("Change to single vendor view (recommended for mobile)")
+      $(".changeVendor").hide();
+    }
+
+  });
+  var currentView = localStorage.getItem("currentView");
+  if (currentView != null && currentView == "1"){
+    var currentVendor = localStorage.getItem("currentVendor");
+    var vendorPanels = $(".vendorPanel");
+    $.each(vendorPanels, function(key, panel){
+      // var panelId = ;
+      if ($(panel).attr("id") != currentVendor){
+        $(panel).hide();
+      }
+    });
+    $(".changeView").html("Change to all vendor view");
+    $(".changeVendor").show();
+
+  }
+
+  $(".changeVendor").on("click", function(){
+
+    var vendorButton = 0;
+    var buttonClass = $(this).attr("class");
+    if ( buttonClass== "changeVendor nextVendor"){
+      vendorButton = 1;
+    }
+    else if ( buttonClass== "changeVendor prevVendor"){
+      vendorButton = -1;
+    }
+    //
+
+    //get local storage
+    var currentVendor = localStorage.getItem("currentVendor");
+    //set local storage
+    if (currentVendor == "Prapor" && vendorButton == -1){
+      currentVendor = "Jaeger";
+      console.log("if");
+    }
+    else if (currentVendor == "Jaeger" && vendorButton == 1){
+      currentVendor = "Prapor";
+      console.log("elif");
+    }
+    else {
+      console.log("else");
+      if( vendorButton == 1){
+        currentVendor = $("#"+currentVendor).next().attr("id");
+      }
+      else if ( vendorButton == -1){
+        currentVendor = $("#"+currentVendor).prev().attr("id");
+      }
+    }
+    console.log(currentVendor)
+    console.log(vendorButton)
+
+    localStorage.setItem("currentVendor", currentVendor);
+
+
+    $.each(vendorPanels, function(key, panel){
+      // var panelId = ;
+      if ($(panel).attr("id") != currentVendor){
+        $(panel).hide();
+      }
+      else {
+        $(panel).show();
+      }
+    });
+
+  });
+
 });
 </script>
