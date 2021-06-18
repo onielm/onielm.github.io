@@ -431,6 +431,20 @@ $( document ).ready(function() {
   $(".itemCard").remove();
   $(".changeVendor").hide();
 
+  var currentView = localStorage.getItem("currentView");
+  if (currentView != null && currentView == "1"){
+    var currentVendor = localStorage.getItem("currentVendor");
+    var vendorPanels = $(".vendorPanel");
+    $.each(vendorPanels, function(key, panel){
+      // var panelId = ;
+      if ($(panel).attr("id") != currentVendor){
+        $(panel).hide();
+      }
+    });
+    $(".changeView").html("Change to all vendor view");
+    $(".changeVendor").show();
+
+  }
 
   //create all items per vendor
   $.getJSON(jsonUrl, function(data) {
@@ -549,17 +563,19 @@ $( document ).ready(function() {
         });
       }
   });
+
   $(".changeView").on("click", function(){
     //
-    var cookies = { ...localStorage };
 
     var currentVendor = localStorage.getItem("currentVendor");
     if (currentVendor == null){
       localStorage.setItem("currentVendor", "Prapor");
+      currentVendor = "Prapor";
     }
     var currentView = localStorage.getItem("currentView");
     if (currentView == null){
       localStorage.setItem("currentView", "0");
+      currentView = "0";
     }
 
     if (currentView == "0"){
@@ -586,20 +602,7 @@ $( document ).ready(function() {
     }
 
   });
-  var currentView = localStorage.getItem("currentView");
-  if (currentView != null && currentView == "1"){
-    var currentVendor = localStorage.getItem("currentVendor");
-    var vendorPanels = $(".vendorPanel");
-    $.each(vendorPanels, function(key, panel){
-      // var panelId = ;
-      if ($(panel).attr("id") != currentVendor){
-        $(panel).hide();
-      }
-    });
-    $(".changeView").html("Change to all vendor view");
-    $(".changeVendor").show();
 
-  }
 
   $(".changeVendor").on("click", function(){
 
@@ -618,14 +621,11 @@ $( document ).ready(function() {
     //set local storage
     if (currentVendor == "Prapor" && vendorButton == -1){
       currentVendor = "Jaeger";
-      console.log("if");
     }
     else if (currentVendor == "Jaeger" && vendorButton == 1){
       currentVendor = "Prapor";
-      console.log("elif");
     }
     else {
-      console.log("else");
       if( vendorButton == 1){
         currentVendor = $("#"+currentVendor).next().attr("id");
       }
@@ -633,22 +633,17 @@ $( document ).ready(function() {
         currentVendor = $("#"+currentVendor).prev().attr("id");
       }
     }
-    console.log(currentVendor)
-    console.log(vendorButton)
-
     localStorage.setItem("currentVendor", currentVendor);
-
-
+    var vendorPanels = $(".vendorPanel");
     $.each(vendorPanels, function(key, panel){
-      // var panelId = ;
-      if ($(panel).attr("id") != currentVendor){
+      var panelId = $(panel).attr("id");
+      if (panelId != currentVendor){
         $(panel).hide();
       }
       else {
         $(panel).show();
       }
     });
-
   });
 
 });
