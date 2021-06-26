@@ -4,7 +4,7 @@ Tarkov items- items needed to be found in raid for quests
 https://onielm.github.io/tarkov_items/
 
 
-![picture alt](https://i.imgur.com/Jsk2EL8.png "Tarkov Items")
+<img src="https://i.imgur.com/Jsk2EL8.png" width="720" height="" />
 
 
 # How to use
@@ -30,15 +30,16 @@ There are two type of views
 
 #### All vendor view
 Ideal for desktop use. You must scroll horizontally to be able to see all vendors.
+
 <img src="https://i.imgur.com/Jsk2EL8.png" width="400" height="" />
 
 #### Single vendor view
 Ideal for mobile use. While in this view, there are two buttons that sticks to the top of the screen that allows changing between vendors.
 
 <img src="https://i.imgur.com/OzxGsUO.png" width="200" height="" />
+
 <img src="https://i.imgur.com/PRXUWiI.png" width="200" height="" />
 
-\
 
 
 # How data is stored
