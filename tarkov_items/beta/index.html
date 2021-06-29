@@ -221,19 +221,19 @@
         right: 10%;
       }
       div.itemsGathered {
+        width: 45%;
         font-size: 16px;
         font-weight: bold;
         text-align: right;
         margin-top: 10px;
         margin-bottom: 10px;
         margin-right: 0px;
+        margin-left: 55%;
         padding-right: 0px;
         padding-left: 0px;
-        position: relative;
-        left: 65%;
       }
       .itemAmount {
-        width: 15%;
+        width:47px;
         text-align: center;
         background: white;
         margin-top: auto;
@@ -514,25 +514,31 @@ $( document ).ready(function() {
         var counterId = $(counter).attr("id");
         $(counter).html(newCount);
         localStorage.setItem(counterId, newCount);
-        console.log(newCount);
       }
     });
 
 
     // load user data, items status, item amount
     var localData = { ...localStorage };
-    $.each(localData, function( itemCardId, value ) {
-      itemCardId = "#"+itemCardId;
-      var itemCard = $(itemCardId);
-      var itemCardClass = $(itemCardId).attr("class");
-      if(value == "0" && itemCardClass == "col-sm itemCard"){
-        itemCard.css("background-color", "red");
-      }else if(value == "1" && itemCardClass == "col-sm itemCard"){
-        itemCard.css("background-color", "yellow");
-      }else if(value == "2" && itemCardClass == "col-sm itemCard"){
-        itemCard.css("background-color", "green");
-      }else if (itemCardClass == "itemAmount"){
-        itemCard.html(value);
+    $.each(localData, function( id, value ) {
+      var elementId = "#"+id;
+      var element = $(elementId);
+      var elementClass = $(elementId).attr("class");
+      if(value == "0" && elementClass == "col-sm itemCard"){
+        element.css("background-color", "red");
+      }else if(value == "1" && elementClass == "col-sm itemCard"){
+        element.css("background-color", "yellow");
+      }else if(value == "2" && elementClass == "col-sm itemCard"){
+        element.css("background-color", "green");
+      }else if (elementClass == "itemAmount"){
+        var maxValue = element.attr("max");
+        if(value>maxValue){
+          localStorage.setItem(id, maxValue);
+          element.html(maxValue);
+        }
+        else{
+          element.html(value);
+        }
       }
     });
   });

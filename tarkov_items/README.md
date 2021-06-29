@@ -17,6 +17,11 @@ For each individual item, click on a button to set its status to either
 <img src="https://media.giphy.com/media/OlALsvdloIdoIVIMbx/giphy.gif" width="400" height="" />
 
 \
+The counter can be used for whatever you desire. While I prefer to use it for the amount of items I have found, it could mean the amount of items you need to find, how many you have turned in, etc.
+\
+<img src="https://i.imgur.com/UytGbaM.png" width="100" height="" />
+
+\
 If an item can be crafted, it has a crafting icon <img src="https://github.com/onielm/tarkov_items_web/blob/main/images/tools.png?raw=true" width="25" height="" />
 
 If an item is not needed for kappa, it has a crossed out K  <img src="https://github.com/onielm/tarkov_items_web/blob/main/images/not_kappa.png?raw=true" width="25" height="" />

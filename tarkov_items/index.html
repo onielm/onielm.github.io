@@ -4,6 +4,8 @@
 
     <title>Tarkov items</title>
     <meta name="description" content="Items needed to be found in raid for quests turn in.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 
     <!-- jquery -->
@@ -19,6 +21,11 @@
       body{
         background-color: #2F291F;
       }
+      p.tip{
+        border: 3px solid green;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
       div.banner {
         width: 100%;
         color: white;
@@ -32,7 +39,6 @@
         white-space: nowrap;
         padding: 15px;
         padding-left: 30px;
-        /* overflow-x: auto; */
         margin-bottom: 100px;
       }
       div.vendorPanel {
@@ -43,10 +49,11 @@
         padding: 5px;
         text-decoration: none;
         white-space: normal;
+        margin-left: : auto;
+        margin-right: : auto;
       }
       .row {
         display: flex;
-        /* flex-wrap: wrap; */
       }
       .row > [class*='col-'] {
         display: flex;
@@ -76,9 +83,6 @@
       #Jaeger{
         background-color: #907F65;
       }
-      /* div.container-fluid {
-        padding: 0px;
-      } */
       div.vendorInfo {
         color: black;
         width: 100%;
@@ -86,16 +90,13 @@
         text-decoration: none;
         margin-bottom: 5px;
         padding: 0px;
-        /* padding-right: 10px; */
         position: relative;
         white-space: nowrap;
-        /* overflow: auto; */
-
       }
       div.vendorName {
         color: black;
         width: 270px;
-        font-size: 24px;
+        /* font-size: 24px; */
         font-weight: bold;
         padding: 0px;
         margin: 0px;
@@ -116,7 +117,8 @@
       div.itemCard {
         color: black;
         width: auto;
-        height: 135px;
+        /* height: 135px; */
+        height: auto;
         padding: 5px;
         text-decoration: none;
         background-color: red;
@@ -124,7 +126,6 @@
         margin: 0px;
         margin-bottom: 5px;
         max-width: 400px;
-        /* overflow: auto; */
         z-index: 0;
       }
       div.buttons {
@@ -134,13 +135,12 @@
       }
       div.itemImage {
         width: 40%;
-        max-width: 40%;
         height: auto;
         margin: 0px;
         padding: 0px;
       }
       img.itemIcon {
-        max-height: 110px;
+        height: auto;
         max-width: 100%;
       }
       div.itemInfo {
@@ -153,11 +153,10 @@
         word-wrap: break-word;
       }
       div.itemText {
-        /* -webkit-text-stroke: 0.1px white; */
         color: black;
         width: 100%;
         height: 70%;
-        font-size: 13px;
+        /* font-size: 13px; */
         font-weight: bold;
       }
       div.itemCraft {
@@ -209,18 +208,47 @@
       button.changeVendor {
         color: black;
         font-weight: bold;
-        font-size: 12px;
+        /* font-size: 12px; */
         top: 30%;
         width: 40%;
         height: 50px;
         max-width: 300px;
-        /* height: 10%; */
       }
       button.prevVendor {
         left: 0px;
       }
       button.nextVendor {
         right: 10%;
+      }
+      div.itemsGathered {
+        width: 45%;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: right;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 0px;
+        margin-left: 55%;
+        padding-right: 0px;
+        padding-left: 0px;
+      }
+      .itemAmount {
+        width:47px;
+        text-align: center;
+        background: white;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 1px solid black;
+      }
+      button.updateOne {
+        padding: 7px;
+        text-align: center;
+      }
+      button.plusOne {
+      }
+      button.minusOne {
       }
     </style>
   </head>
@@ -244,6 +272,9 @@
       <p>
         <button type="button" class="changeView" name="changeView" id="changeView">Change to single vendor view (recommended for mobile) </button>
       </p>
+      <p class="tip">
+        Tip: use Ctrl+plus and Ctrl+minus to adjust size <br>(on desktop).
+      </p>
     </div>
     <div class="changeVendorButtons">
       <button class="changeVendor prevVendor"type="button" name="button">&lt Previous Vendor</button>
@@ -253,19 +284,18 @@
 
     <div class="container-fluid backPanel">
       <div class="row">
-
-        <div class="col-4 vendorPanel" id="Prapor">
+        <div class="col-4 vendorPanel" id="Temp">
           <div class="col-sm vendorInfo">
             <div class="container-fluid">
               <div class="row">
 
               <div class="col-sm-4 vendorName">
-                Prapor
+                Temp
               </div>
               <div class="col-sm-4 vendorImage">
-                <img alt="Prapor"
+                <img alt="Temp"
                 src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/6b/Prapor_Portrait.png"
-                decoding="async" title="Prapor" width="80" height="80">
+                decoding="async" title="Temp" width="80" height="80">
               </div>
             </div>
           </div>
@@ -289,135 +319,29 @@
                       1x template
                     </p>
                   </div>
-                  <div class="col-sm-2 itemCraft">
-                    <img class="icon" alt="6L31-60-mag icon.png"
-                    src="https://github.com/onielm/tarkov_items_web/blob/main/images/tools.png?raw=true"
-                    decoding="async" width="25" height="25">
-                  </div>
-                  <div class="col-sm-2 itemKappa">
-                    <img class="icon" alt="6L31-60-mag icon.png"
-                    src="https://github.com/onielm/tarkov_items_web/blob/main/images/not_kappa.png?raw=true"
-                    decoding="async" width="25" height="25">
-                  </div>
+                  <div class="row">
+                    <div class="col-sm-2 itemCraft">
+                      <img class="icon" alt="6L31-60-mag icon.png"
+                      src="https://github.com/onielm/tarkov_items_web/blob/main/images/tools.png?raw=true"
+                      decoding="async" width="25" height="25">
+                    </div>
+                    <div class="col-sm-2 itemKappa">
+                      <img class="icon" alt="6L31-60-mag icon.png"
+                      src="https://github.com/onielm/tarkov_items_web/blob/main/images/not_kappa.png?raw=true"
+                      decoding="async" width="25" height="25">
+                    </div>
 
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-4 vendorPanel" id="Therapist">
-          <div class="col-sm vendorInfo">
-            <div class="container-fluid">
-              <div class="row">
-              <div class="col-sm-4 vendorName">
-                Therapist
-              </div>
-              <div class="col-sm-4 vendorImage">
-                <img alt="Therapist"
-                src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c7/Therapist_Portrait.png"
-                decoding="async" title="Therapist" width="80" height="80">
+              <div class="row itemsGathered">
+                <button class="updateOne minusOne" type="button" name="button">-1</button>
+                <div class="itemAmount" max="7">0</div>
+                <button class="updateOne plusOne" type="button" name="button">+1</button>
               </div>
             </div>
           </div>
-          </div>
         </div>
-        <div class="col-4 vendorPanel" id="Fence">
-          <div class="col-sm vendorInfo">
-            <div class="container-fluid">
-              <div class="row">
-              <div class="col-sm-4 vendorName">
-                Fence
-              </div>
-              <div class="col-sm-4 vendorImage">
-                <img alt="Fence"
-                src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f7/Fence_Portrait.png"
-                decoding="async" title="Fence" width="80" height="80">
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
-        <div class="col-4 vendorPanel" id="Skier">
-          <div class="col-sm vendorInfo">
-            <div class="container-fluid">
-              <div class="row">
-              <div class="col-sm-4 vendorName">
-                Skier
-              </div>
-              <div class="col-sm-4 vendorImage">
-                <img alt="Skier"
-                src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/0a/Skier_Portrait.png"
-                decoding="async" title="Skier" width="80" height="80">
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
-        <div class="col-4 vendorPanel" id="Peacekeeper">
-          <div class="col-sm vendorInfo">
-            <div class="container-fluid">
-              <div class="row">
-              <div class="col-sm-4 vendorName">
-                Peacekeeper
-              </div>
-              <div class="col-sm-4 vendorImage">
-                <img alt="Peacekeeper"
-                src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/08/Peacekeeper_Portrait.png"
-                decoding="async" title="Peacekeeper" width="80" height="80">
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
-        <div class="col-4 vendorPanel" id="Mechanic">
-          <div class="col-sm vendorInfo">
-            <div class="container-fluid">
-              <div class="row">
-              <div class="col-sm-4 vendorName">
-                Mechanic
-              </div>
-              <div class="col-sm-4 vendorImage">
-                <img alt="Mechanic"
-                src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/ef/Mechanic_Portrait.png"
-                decoding="async" title="Mechanic" width="80" height="80">
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
-        <div class="col-4 vendorPanel" id="Ragman">
-          <div class="col-sm vendorInfo">
-            <div class="container-fluid">
-              <div class="row">
-              <div class="col-sm-4 vendorName">
-                Ragman
-              </div>
-              <div class="col-sm-4 vendorImage">
-                <img alt="Ragman"
-                src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8b/Ragman_Portrait.png"
-                decoding="async" title="Ragman" width="80" height="80">
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
-        <div class="col-4 vendorPanel" id="Jaeger">
-          <div class="col-sm vendorInfo">
-            <div class="container-fluid">
-              <div class="row">
-              <div class="col-sm-4 vendorName">
-                Jaeger
-              </div>
-              <div class="col-sm-4 vendorImage">
-                <img alt="Jaeger"
-                src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d1/Jaeger_Portrait.png"
-                decoding="async" title="Jaeger" width="80" height="80">
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
-
       </div>
     </div>
     <div class="jumbotron text-center banner">
@@ -426,6 +350,11 @@
       <p>
         All traders and items images are from
         <a href="https://escapefromtarkov.fandom.com/wiki/Escape_from_Tarkov_Wiki">the EFT wiki</a>.
+     </p>
+      <p>
+        Checkout the
+        <a href="https://github.com/onielm/onielm.github.io/tree/main/tarkov_items">GitHub</a>
+        for mor info.
      </p>
       <p>
         This work was inspired by
@@ -444,38 +373,54 @@ $( document ).ready(function() {
   // PAGE LOAD
   var itemCardTemplate = $("#itemCardTemplate").clone(true);
   $(".itemCard").remove();
-  $(".changeVendorButtons").hide();
+  $(".changeVendorButtons").hide(0);
 
-  var currentView = localStorage.getItem("currentView");
-  if (currentView != null && currentView == "1"){
-    var currentVendor = localStorage.getItem("currentVendor");
-    var vendorPanels = $(".vendorPanel");
-    $.each(vendorPanels, function(key, panel){
-      if ($(panel).attr("id") != currentVendor){
-        $(panel).hide();
+  function showCorrectPanel(){
+    var currentView = localStorage.getItem("currentView");
+    if (currentView != null && currentView == "1"){
+      var currentVendor = localStorage.getItem("currentVendor");
+      if (currentVendor == "undefined"){
+        localStorage.setItem("currentVendor","Prapor");
+        currentVendor = "Prapor";
       }
-    });
-    $(".changeView").html("Change to all vendor view");
-    $(".changeVendorButtons").show();
-
+      var vendorPanels = $(".vendorPanel");
+      $.each(vendorPanels, function(key, panel){
+        if ($(panel).attr("id") != currentVendor){
+          $(panel).hide(0);
+        }
+      });
+      $(".changeView").html("Change to all vendor view");
+      $(".changeVendorButtons").show(0);
+    }
   }
+
+  $(".tip").fadeTo(7000, 0);
+  $(".tip").hide(300)
 
   //create all items per vendor
   $.getJSON(jsonUrl, function(data) {
 
     var vendors = data;
 
-    var mostItems = 0;
+    // make panel for each vendor
+    var backPanel = $(".backPanel .row").first();
+    var tempPanel = $("#Temp");
     $.each( vendors, function( index, vendorInfo ) {
 
       var vendor = vendorInfo.name;
-      var items = vendorInfo.item;
+      var image = vendorInfo.imageUrl;
+      var vendorId = "#"+vendor;
 
-      var totalItems = Object.keys(items).length;
-      if (totalItems > mostItems){
-        mostItems = totalItems;
-      }
+      var vendorPanelClone = tempPanel.clone(true);
+      vendorPanelClone.find(".vendorName").html(vendor);
+      vendorPanelClone.find(".vendorImage img").attr("src",image);
+      vendorPanelClone.attr("id",vendor);
+      backPanel.append(vendorPanelClone);
     });
+    tempPanel.remove();
+    showCorrectPanel();
+
+    // fill items for each vendor
     $.each( vendors, function( index, vendorInfo ) {
 
       var vendor = vendorInfo.name;
@@ -497,6 +442,8 @@ $( document ).ready(function() {
         newItemCard.find(".itemText").html(amounNeeded+"x<br> "+itemName);
         newItemCard.find(".itemImage img").attr("src",itemImageURL);
         newItemCard.find(".itemImage img").attr("alt",itemName);
+        newItemCard.find(".itemAmount").attr("max",amounNeeded);
+        newItemCard.find(".itemAmount").attr("id",newId+"Amount");
 
         var img = new Image();
 
@@ -522,10 +469,10 @@ $( document ).ready(function() {
         img.src = itemImageURL;
 
         if (kappaRequired == "1"){
-          newItemCard.find(".itemKappa").remove();
+          newItemCard.find(".itemKappa").css("opacity", "0.0");
         }
         if (craftable == "0"){
-          newItemCard.find(".itemCraft").remove();
+          newItemCard.find(".itemCraft").css("opacity", "0.0");
         }
 
         $(vendorId).append(newItemCard);
@@ -545,20 +492,53 @@ $( document ).ready(function() {
       localStorage.setItem(item, new_status);
     });
 
+    //update amount
+    $(".updateOne").on("click", function(){
+      var buttonClass = $(this).attr("class");
+      var counter;
+      var newCount;
 
-    // load user data, items status
+      if(buttonClass == "updateOne minusOne"){
+        counter = $(this).next();
+        var count = $(counter).html();
+        newCount = parseInt(count) - 1;
+      }
+      else if(buttonClass == "updateOne plusOne"){
+        counter = $(this).prev();
+        var count = $(counter).html();
+        newCount = parseInt(count) + 1;
+      }
+
+      var maxValue = $(counter).attr("max");
+      if(newCount >= 0 && newCount <= maxValue){
+        var counterId = $(counter).attr("id");
+        $(counter).html(newCount);
+        localStorage.setItem(counterId, newCount);
+      }
+    });
+
+
+    // load user data, items status, item amount
     var localData = { ...localStorage };
-    $.each(localData, function( itemCardId, status ) {
-      itemCardId = "#"+itemCardId;
-      if(status == "0"){
-        var itemCard = $(itemCardId);
-        itemCard.css("background-color", "red");
-      }else if(status == "1"){
-        var itemCard = $(itemCardId);
-        itemCard.css("background-color", "yellow");
-      }else if(status == "2"){
-        var itemCard = $(itemCardId);
-        itemCard.css("background-color", "green");
+    $.each(localData, function( id, value ) {
+      var elementId = "#"+id;
+      var element = $(elementId);
+      var elementClass = $(elementId).attr("class");
+      if(value == "0" && elementClass == "col-sm itemCard"){
+        element.css("background-color", "red");
+      }else if(value == "1" && elementClass == "col-sm itemCard"){
+        element.css("background-color", "yellow");
+      }else if(value == "2" && elementClass == "col-sm itemCard"){
+        element.css("background-color", "green");
+      }else if (elementClass == "itemAmount"){
+        var maxValue = element.attr("max");
+        if(value>maxValue){
+          localStorage.setItem(id, maxValue);
+          element.html(maxValue);
+        }
+        else{
+          element.html(value);
+        }
       }
     });
   });
@@ -596,20 +576,19 @@ $( document ).ready(function() {
 
       var vendorPanels = $(".vendorPanel");
       $.each(vendorPanels, function(key, panel){
-        // var panelId = ;
         if ($(panel).attr("id") != currentVendor){
-          $(panel).hide();
+          $(panel).hide(500);
         }
       });
       $(this).html("Change to all vendor view")
-      $(".changeVendorButtons").show();
+      $(".changeVendorButtons").show(100);
     }
     else if (currentView == "1"){
       localStorage.setItem("currentView", "0");
 
-      $(".vendorPanel").show()
+      $(".vendorPanel").show(100)
       $(this).html("Change to single vendor view (recommended for mobile)")
-      $(".changeVendorButtons").hide();
+      $(".changeVendorButtons").hide(500);
     }
 
   });
@@ -646,10 +625,10 @@ $( document ).ready(function() {
     $.each(vendorPanels, function(key, panel){
       var panelId = $(panel).attr("id");
       if (panelId != currentVendor){
-        $(panel).hide();
+        $(panel).hide(500);
       }
       else {
-        $(panel).show();
+        $(panel).show(100);
       }
     });
   });
