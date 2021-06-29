@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <title>Tarkov items</title>
+    <meta name="description" content="Items needed to be found in raid for quests turn in.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+      body{
+        background-color: #2F291F;
+      }
+      div.banner {
+        width: 100%;
+        color: white;
+        background-color: #151515;
+        margin-bottom: 5px;
+      }
+      div.backPanel {
+        top:500;
+        background-color: #151515;
+        width: 100%;
+        white-space: nowrap;
+        padding: 15px;
+        padding-left: 30px;
+        margin-bottom: 100px;
+      }
+      div.vendorPanel {
+        display: inline-block;
+        width: 95%;
+        color: black;
+        background-color: grey;
+        padding: 5px;
+        text-decoration: none;
+        white-space: normal;
+      }
+      .row {
+        display: flex;
+      }
+      .row > [class*='col-'] {
+        display: flex;
+        flex-direction: column;
+      }
+      #Prapor{
+        background-color: #2B230F;
+      }
+      #Therapist{
+        background-color: #97A683;
+      }
+      #Fence{
+        background-color: #4D4D4D;
+      }
+      #Skier{
+        background-color: #CB8145;
+      }
+      #Peacekeeper{
+        background-color: #587DBE;
+      }
+      #Mechanic{
+        background-color: #937252;
+      }
+      #Ragman{
+        background-color: #B29C64;
+      }
+      #Jaeger{
+        background-color: #907F65;
+      }
+      div.vendorInfo {
+        color: black;
+        width: 100%;
+        padding: 5px;
+        text-decoration: none;
+        margin-bottom: 5px;
+        padding: 0px;
+        position: relative;
+        white-space: nowrap;
+
+      }
+      div.vendorName {
+        color: black;
+        width: 270px;
+        /* font-size: 24px; */
+        font-weight: bold;
+        padding: 0px;
+        margin: 0px;
+        text-decoration: none;
+        margin-bottom: 5px;
+        text-align: center;
+      }
+      div.vendorImage {
+        width: 80px;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+      }
+      img.vendorIcon {
+        width: auto;
+        text-align: center;
+      }
+      div.itemCard {
+        color: black;
+        width: auto;
+        /* height: 135px; */
+        height: auto;
+        padding: 5px;
+        text-decoration: none;
+        background-color: red;
+        border: solid black 5px;
+        margin: 0px;
+        margin-bottom: 5px;
+        max-width: 400px;
+        z-index: 0;
+      }
+      div.buttons {
+        padding: 0px;
+        padding-right:2px;
+        width: 25%;
+      }
+      div.itemImage {
+        width: 40%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+      }
+      img.itemIcon {
+        height: auto;
+        max-width: 100%;
+      }
+      div.itemInfo {
+        height: 100%;
+        width: 35%;
+        margin: 0px;
+        margin-left: 2px;
+        padding: 3px;
+        background-color: rgba(255,255,255,0.5);
+        word-wrap: break-word;
+      }
+      div.itemText {
+        color: black;
+        width: 100%;
+        height: 70%;
+        /* font-size: 13px; */
+        font-weight: bold;
+      }
+      div.itemCraft {
+        width: 50%;
+        height: 30%;
+      }
+      div.itemKappa {
+        width: 50%;
+        height: 30%;
+      }
+      button.setStatus {
+        font-size: 13px;
+        width: 100%;
+        color: black;
+        font-weight: bold;
+        padding: 3px;
+        padding-bottom : 7px;
+        padding-top: 7px;
+        text-decoration: none;
+      }
+      button.notFound {
+        background-color: red;
+      }
+      button.inStash {
+        background-color: yellow;
+      }
+      button.turnedIn {
+        background-color: green;
+      }
+      button.resetProgress {
+        color: black;
+      }
+      button.changeView {
+        color: black;
+        max-width: 90%;
+        font-weight: bold;
+      }
+      div.changeVendorButtons {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        text-align: center;
+        top: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 5px;
+        background: #151515;
+        z-index: 1;
+      }
+      button.changeVendor {
+        color: black;
+        font-weight: bold;
+        /* font-size: 12px; */
+        top: 30%;
+        width: 40%;
+        height: 50px;
+        max-width: 300px;
+      }
+      button.prevVendor {
+        left: 0px;
+      }
+      button.nextVendor {
+        right: 10%;
+      }
+      div.itemsGathered {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: right;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+      }
+      input.itemAmount {
+        width: 25%;
+        text-align: center;
+      }
+      button.updateOne {
+        padding: 7px;
+        text-align: center;
+      }
+      button.plusOne {
+      }
+      button.minusOne {
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="jumbotron text-center banner">
+      <h1>Tarkov Items</h1>
+      <p>Items needed to be found in-raid for quests (as of 0.12.9.1032; 12/Feb/2021) </p>
+      <p>
+        <img class="" alt="6L31-60-mag icon.png"
+        src="https://github.com/onielm/tarkov_items_web/blob/main/images/tools.png?raw=true"
+        decoding="async" width="25" height="25">
+        = it can be crafted
+      </p>
+      <p>
+        <img class="" alt="6L31-60-mag icon.png"
+        src="https://github.com/onielm/tarkov_items_web/blob/main/images/not_kappa.png?raw=true"
+        decoding="async" width="25" height="25">
+        = it's not needed for Kappa
+      </p>
+      <p>
+        <button type="button" class="changeView" name="changeView" id="changeView">Change to single vendor view (recommended for mobile) </button>
+      </p>
+    </div>
+    <div class="changeVendorButtons">
+      <button class="changeVendor prevVendor"type="button" name="button">&lt Previous Vendor</button>
+      <button class="changeVendor nextVendor"type="button" name="button">Next Vendor &gt</button>
+    </div>
+
+
+    <div class="container-fluid backPanel">
+      <div class="row">
+        <div class="col-4 vendorPanel" id="Temp">
+          <div class="col-sm vendorInfo">
+            <div class="container-fluid">
+              <div class="row">
+
+              <div class="col-sm-4 vendorName">
+                Temp
+              </div>
+              <div class="col-sm-4 vendorImage">
+                <img alt="Temp"
+                src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/6b/Prapor_Portrait.png"
+                decoding="async" title="Temp" width="80" height="80">
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-sm itemCard" id="itemCardTemplate">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-4 buttons">
+                  <button class="setStatus notFound" type="button" name="button" value="0">Not Found</button>
+                  <button class="setStatus inStash" type="button" name="button" value="1">In Stash</button>
+                  <button class="setStatus turnedIn" type="button" name="button" value="2">Turned In</button>
+                </div>
+                <div class="col-sm-4 itemImage">
+                  <img class="itemIcon" alt="6L31-60-mag icon.png"
+                  src="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d7/6L31-60-mag_icon.png"
+                  decoding="async">
+                </div>
+                <div class="col-sm-4 itemInfo">
+                  <div class="itemText">
+                    <p>
+                      1x template
+                    </p>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-2 itemCraft">
+                      <img class="icon" alt="6L31-60-mag icon.png"
+                      src="https://github.com/onielm/tarkov_items_web/blob/main/images/tools.png?raw=true"
+                      decoding="async" width="25" height="25">
+                    </div>
+                    <div class="col-sm-2 itemKappa">
+                      <img class="icon" alt="6L31-60-mag icon.png"
+                      src="https://github.com/onielm/tarkov_items_web/blob/main/images/not_kappa.png?raw=true"
+                      decoding="async" width="25" height="25">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="itemsGathered">
+                  <button class="updateOne minusOne" type="button" name="button">-1</button>
+                  <input class="itemAmount" type="text" name="" value="0" max="7" disabled >
+                  <button class="updateOne plusOne" type="button" name="button">+1</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron text-center banner">
+      <button class="resetProgress" type="button">Reset Progress (requieres refresh)</button><br>
+      <br>
+      <p>
+        All traders and items images are from
+        <a href="https://escapefromtarkov.fandom.com/wiki/Escape_from_Tarkov_Wiki">the EFT wiki</a>.
+     </p>
+      <p>
+        Checkout the
+        <a href="#">GitHub</a>
+        for mor info.
+     </p>
+      <p>
+        This work was inspired by
+        <a href="https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f8/QuestItemsInRaid.png/revision/latest?cb=20210212192627">this image</a>
+        compiled by /u/ImGoingSpace for the EFT's Wiki
+        <a href="https://escapefromtarkov.fandom.com/wiki/Quests">Quest page</a>.
+     </p>
+    </div>
+  </body>
+</html>
+<script type="text/javascript">
+
+$( document ).ready(function() {
+  var jsonUrl = "https://onielm.github.io/tarkov_items/data/json/tarkov_items.json";
+
+  // PAGE LOAD
+  var itemCardTemplate = $("#itemCardTemplate").clone(true);
+  $(".itemCard").remove();
+  $(".changeVendorButtons").hide();
+
+  function showCorrectPanel(){
+    var currentView = localStorage.getItem("currentView");
+    if (currentView != null && currentView == "1"){
+      var currentVendor = localStorage.getItem("currentVendor");
+      if (currentVendor == "undefined"){
+        localStorage.setItem("currentVendor","Prapor");
+        currentVendor = "Prapor";
+      }
+      var vendorPanels = $(".vendorPanel");
+      $.each(vendorPanels, function(key, panel){
+        if ($(panel).attr("id") != currentVendor){
+          $(panel).hide();
+        }
+      });
+      $(".changeView").html("Change to all vendor view");
+      $(".changeVendorButtons").show();
+    }
+  }
+
+
+  //create all items per vendor
+  $.getJSON(jsonUrl, function(data) {
+
+    var vendors = data;
+
+    // make panel for each vendor
+    var backPanel = $(".backPanel .row").first();
+    var tempPanel = $("#Temp");
+    $.each( vendors, function( index, vendorInfo ) {
+
+      var vendor = vendorInfo.name;
+      var image = vendorInfo.imageUrl;
+      var vendorId = "#"+vendor;
+
+      var vendorPanelClone = tempPanel.clone(true);
+      vendorPanelClone.find(".vendorName").html(vendor);
+      vendorPanelClone.find(".vendorImage img").attr("src",image);
+      vendorPanelClone.attr("id",vendor);
+      backPanel.append(vendorPanelClone);
+    });
+    tempPanel.remove();
+    showCorrectPanel();
+
+    // fill items for each vendor
+    $.each( vendors, function( index, vendorInfo ) {
+
+      var vendor = vendorInfo.name;
+      var items = vendorInfo.item;
+
+      var vendorId = "#"+vendor;
+      $.each( items, function( key, info ) {
+        var newItemCard = itemCardTemplate.clone(true);
+
+        var itemName = info.name;
+        var newId = vendor+info.name2;
+        newId = newId.replace(/[/\s&\/\\#,+()$~%.'":*?<>{}]/g,'');
+        var kappaRequired = info.kappa;
+        var craftable = info.crafting;
+        var itemImageURL = info.imageUrl;
+        var amounNeeded = info.quantity;
+
+        newItemCard.attr("id", newId);
+        newItemCard.find(".itemText").html(amounNeeded+"x<br> "+itemName);
+        newItemCard.find(".itemImage img").attr("src",itemImageURL);
+        newItemCard.find(".itemImage img").attr("alt",itemName);
+        newItemCard.find(".itemAmount").attr("max",amounNeeded);
+        newItemCard.find(".itemAmount").attr("id",newId+"Amount");
+
+        var img = new Image();
+
+        img.onload = function(){
+          var height = img.height;
+          var width = img.width;
+
+          if (height>width){
+            var ratio = 110/height;
+            var newWidth = width*ratio+"px";
+            newItemCard.find(".itemImage img").css({
+              "width" : newWidth
+            });
+          } else if (height == width && height == "64"){
+            var ratio = 1.15;
+            var newWidth = width*ratio+"px";
+            newItemCard.find(".itemImage img").css({
+              "width" : newWidth
+            });
+          }
+
+        }
+        img.src = itemImageURL;
+
+        if (kappaRequired == "1"){
+          newItemCard.find(".itemKappa").css("opacity", "0.0");
+        }
+        if (craftable == "0"){
+          newItemCard.find(".itemCraft").css("opacity", "0.0");
+        }
+
+        $(vendorId).append(newItemCard);
+      });
+      var totalItems = Object.keys(items).length;
+    });
+
+    // change status of item on click
+    $(".setStatus").on("click", function(){
+      var itemCard = $(this).parent().parent().parent().parent();
+      var item = itemCard.attr("id");
+
+      var statusButtonBackground = $(this).css("background-color");
+      itemCard.css("background-color", statusButtonBackground);
+
+      var new_status = $(this).attr("value");
+      localStorage.setItem(item, new_status);
+    });
+
+    //update amount
+    $(".updateOne").on("click", function(){
+      var buttonClass = $(this).attr("class");
+      var counter;
+      var newCount;
+
+      if(buttonClass == "updateOne minusOne"){
+        counter = $(this).next();
+        var count = $(counter).attr("value");
+        newCount = parseInt(count) - 1;
+      }
+      else if(buttonClass == "updateOne plusOne"){
+        counter = $(this).prev();
+        var count = $(counter).attr("value");
+        newCount = parseInt(count) + 1;
+      }
+
+      var maxValue = $(counter).attr("max");
+      if(newCount >= 0 && newCount <= maxValue){
+        var counterId = $(counter).attr("id");
+        $(counter).attr("value", newCount);
+        localStorage.setItem(counterId, newCount);
+        console.log(newCount);
+      }
+    });
+
+
+    // load user data, items status, item amount
+    var localData = { ...localStorage };
+    $.each(localData, function( itemCardId, value ) {
+      itemCardId = "#"+itemCardId;
+      var itemCard = $(itemCardId);
+      var itemCardClass = $(itemCardId).attr("class");
+      if(value == "0" && itemCardClass == "col-sm itemCard"){
+        itemCard.css("background-color", "red");
+      }else if(value == "1" && itemCardClass == "col-sm itemCard"){
+        itemCard.css("background-color", "yellow");
+      }else if(value == "2" && itemCardClass == "col-sm itemCard"){
+        itemCard.css("background-color", "green");
+      }else if (itemCardClass == "itemAmount"){
+        itemCard.attr("value", value);
+      }
+    });
+  });
+
+
+  $(".resetProgress").on("click", function(){
+    //
+    var answer = confirm('Do you want to reset all items to "Not Found"?\n(manual refresh required)');
+      if (answer) {
+        var cookies = { ...localStorage };
+
+        $.each(cookies, function( key, value ) {
+          localStorage.setItem(key, "0");
+        });
+        localStorage.setItem("currentVendor", "Prapor");
+      }
+  });
+
+  $(".changeView").on("click", function(){
+    //
+
+    var currentVendor = localStorage.getItem("currentVendor");
+    if (currentVendor == null){
+      localStorage.setItem("currentVendor", "Prapor");
+      currentVendor = "Prapor";
+    }
+    var currentView = localStorage.getItem("currentView");
+    if (currentView == null){
+      localStorage.setItem("currentView", "0");
+      currentView = "0";
+    }
+
+    if (currentView == "0"){
+      localStorage.setItem("currentView", "1");
+
+      var vendorPanels = $(".vendorPanel");
+      $.each(vendorPanels, function(key, panel){
+        // var panelId = ;
+        if ($(panel).attr("id") != currentVendor){
+          $(panel).hide();
+        }
+      });
+      $(this).html("Change to all vendor view")
+      $(".changeVendorButtons").show();
+    }
+    else if (currentView == "1"){
+      localStorage.setItem("currentView", "0");
+
+      $(".vendorPanel").show()
+      $(this).html("Change to single vendor view (recommended for mobile)")
+      $(".changeVendorButtons").hide();
+    }
+
+  });
+
+
+  $(".changeVendor").on("click", function(){
+
+    var vendorButton = 0;
+    var buttonClass = $(this).attr("class");
+    if ( buttonClass== "changeVendor nextVendor"){
+      vendorButton = 1;
+    }
+    else if ( buttonClass== "changeVendor prevVendor"){
+      vendorButton = -1;
+    }
+
+    var currentVendor = localStorage.getItem("currentVendor");
+    if (currentVendor == "Prapor" && vendorButton == -1){
+      currentVendor = "Jaeger";
+    }
+    else if (currentVendor == "Jaeger" && vendorButton == 1){
+      currentVendor = "Prapor";
+    }
+    else {
+      if( vendorButton == 1){
+        currentVendor = $("#"+currentVendor).next().attr("id");
+      }
+      else if ( vendorButton == -1){
+        currentVendor = $("#"+currentVendor).prev().attr("id");
+      }
+    }
+    localStorage.setItem("currentVendor", currentVendor);
+    var vendorPanels = $(".vendorPanel");
+    $.each(vendorPanels, function(key, panel){
+      var panelId = $(panel).attr("id");
+      if (panelId != currentVendor){
+        $(panel).hide();
+      }
+      else {
+        $(panel).show();
+      }
+    });
+  });
+
+});
+</script>
