@@ -43,7 +43,7 @@ Ideal for mobile use. While in this view, there are two buttons that sticks to t
 
 
 # How data is stored
-This webpage uses localstorage to store data. The stored data can be viewed by opening the DevTools (F12), then going to `Application -> Local Storage -> file://`. To delete the data, right click on `file://` and press `clear`.
+This webpage uses localstorage to store data, which isn't shared between browsers. The stored data can be viewed by opening the DevTools (F12), then going to `Application -> Local Storage -> file://`. To delete the data, right click on `file://` and press `clear`.
 
 <img src="https://i.imgur.com/LC6dcLF.png" width="300" height="" />
 
