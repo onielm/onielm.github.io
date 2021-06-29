@@ -532,7 +532,7 @@ $( document ).ready(function() {
         element.css("background-color", "green");
       }else if (elementClass == "itemAmount"){
         var maxValue = element.attr("max");
-        if(value>maxValue){
+        if(parseInt(value)>parseInt(maxValue)){
           localStorage.setItem(id, maxValue);
           element.html(maxValue);
         }
