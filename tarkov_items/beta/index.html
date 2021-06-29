@@ -140,8 +140,8 @@
         padding: 0px;
       }
       img.itemIcon {
-        width: auto;
-        max-height: 100%;
+        /* width: auto; */
+        /* max-height: 100%; */
       }
       div.itemInfo {
         height: 100%;
@@ -272,6 +272,10 @@
       <p>
         <button type="button" class="changeView" name="changeView" id="changeView">Change to single vendor view (recommended for mobile) </button>
       </p>
+      <!-- <p>
+        <button style="color:black; font-weight:bold;" type="button" class="testMinusOne" name="testMinusOne" id="testMinusOne">all - 1</button>
+        <button style="color:black; font-weight:bold;" type="button" class="testPlusOne" name="testPlusOne" id="testPlusOne">all + 1</button>
+      </p> -->
       <p class="tip">
         Tip: use Ctrl+plus and Ctrl+minus to adjust size <br>(on desktop).
       </p>
@@ -436,15 +440,32 @@ $( document ).ready(function() {
         var kappaRequired = info.kappa;
         var craftable = info.crafting;
         var itemImageURL = info.imageUrl;
-        var amounNeeded = info.quantity;
+        var amountId = newId+"Amount";
+        var amountNeeded = info.quantity;
 
         newItemCard.attr("id", newId);
-        newItemCard.find(".itemText").html(amounNeeded+"x<br> "+itemName);
+        newItemCard.find(".itemText").html(amountNeeded+"x<br> "+itemName);
         newItemCard.find(".itemImage img").attr("src",itemImageURL);
         newItemCard.find(".itemImage img").attr("alt",itemName);
-        newItemCard.find(".itemAmount").attr("max",amounNeeded);
-        newItemCard.find(".itemAmount").attr("id",newId+"Amount");
+        newItemCard.find(".itemAmount").attr("max",amountNeeded);
+        newItemCard.find(".itemAmount").attr("id",amountId);
 
+        // load item amount saved
+        var savedAmount = localStorage.getItem(amountId);
+        if (savedAmount != null){
+          if(parseInt(savedAmount) > parseInt(amountNeeded)){
+            newItemCard.find(".itemAmount").html(amountNeeded);
+            // alert(amountId+"///savedAmount = "+savedAmount+"///amountNeeded = "+amountNeeded);
+            // console.log(amountId+"///savedAmount = "+savedAmount+"///amountNeeded = "+amountNeeded);
+            localStorage.setItem(amountId,amountNeeded);
+          }
+          else{
+            newItemCard.find(".itemAmount").html(savedAmount);
+          }
+        }
+
+
+        // itemIcon
         var img = new Image();
 
         img.onload = function(){
@@ -457,8 +478,9 @@ $( document ).ready(function() {
             newItemCard.find(".itemImage img").css({
               "width" : newWidth
             });
-          } else if (height == width && height == 64){
-            var ratio = 1.15;
+          }
+          else if (height == width){
+            var ratio = 0.40;
             var newWidth = width*ratio+"px";
             newItemCard.find(".itemImage img").css({
               "width" : newWidth
@@ -479,6 +501,15 @@ $( document ).ready(function() {
       });
       var totalItems = Object.keys(items).length;
     });
+
+    // // change status of item on click
+    // $(".testPlusOne").on("click", function(){
+    //   $(".plusOne").click();
+    // });
+    // // change status of item on click
+    // $(".testMinusOne").on("click", function(){
+    //   $(".minusOne").click();
+    // });
 
     // change status of item on click
     $(".setStatus").on("click", function(){
@@ -518,7 +549,7 @@ $( document ).ready(function() {
     });
 
 
-    // load user data, items status, item amount
+    // load user data, items status
     var localData = { ...localStorage };
     $.each(localData, function( id, value ) {
       var elementId = "#"+id;
@@ -526,23 +557,12 @@ $( document ).ready(function() {
       var elementClass = $(elementId).attr("class");
       if(value == "0" && elementClass == "col-sm itemCard"){
         element.css("background-color", "red");
-      }else if(value == "1" && elementClass == "col-sm itemCard"){
+      }
+      else if(value == "1" && elementClass == "col-sm itemCard"){
         element.css("background-color", "yellow");
-      }else if(value == "2" && elementClass == "col-sm itemCard"){
+      }
+      else if(value == "2" && elementClass == "col-sm itemCard"){
         element.css("background-color", "green");
-      }else if (elementClass == "itemAmount"){
-        var maxValue = element.attr("max");
-        if(parseInt(value)>parseInt(maxValue)){
-          localStorage.setItem(id, maxValue);
-          element.html(maxValue);
-          console.log("elementId",elementId);
-          console.log("maxValue",maxValue);
-          console.log("value",value);
-        }
-        else{
-          element.html(value);
-        }
-
       }
     });
   });
