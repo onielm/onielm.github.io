@@ -135,13 +135,13 @@
       }
       div.itemImage {
         width: 40%;
-        height: auto;
+        /* height: auto; */
         margin: 0px;
         padding: 0px;
       }
       img.itemIcon {
-        height: auto;
-        max-width: 100%;
+        width: auto;
+        max-height: 100%;
       }
       div.itemInfo {
         height: 100%;
@@ -457,7 +457,7 @@ $( document ).ready(function() {
             newItemCard.find(".itemImage img").css({
               "width" : newWidth
             });
-          } else if (height == width && height == "64"){
+          } else if (height == width && height == 64){
             var ratio = 1.15;
             var newWidth = width*ratio+"px";
             newItemCard.find(".itemImage img").css({
@@ -532,13 +532,17 @@ $( document ).ready(function() {
         element.css("background-color", "green");
       }else if (elementClass == "itemAmount"){
         var maxValue = element.attr("max");
-        if(value>maxValue){
+        if(parseInt(value)>parseInt(maxValue)){
           localStorage.setItem(id, maxValue);
           element.html(maxValue);
+          console.log("elementId",elementId);
+          console.log("maxValue",maxValue);
+          console.log("value",value);
         }
         else{
           element.html(value);
         }
+
       }
     });
   });
